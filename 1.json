@@ -126,7 +126,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "enabledReview": false,
-    "lastUpdateTime": 1681705145717,
+    "lastUpdateTime": 1682345974800,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": ".byline@a@text",
@@ -138,7 +138,7 @@
       "wordCount": "dd.words@text##\\D"
     },
     "ruleContent": {
-      "content": "#chapters@.userstuff@html"
+      "content": "@js:\nvar jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\"h3.landmark.heading\").remove()\njsoup.select(\"#chapters\").html()"
     },
     "ruleExplore": {},
     "ruleReview": {},
@@ -217,13 +217,14 @@
     "bookSourceName": "废文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://sosad.fun/",
+    "bookUrlPattern": "\\S+sosad.fun.threads.\\d+\\S+",
     "customOrder": -96,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
     "enabledReview": false,
     "exploreUrl": "[{\"title\":\"编推金麦穗\",\"url\":\"/books?withTag=1835&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"收藏\",\"url\":\"/collection\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"签到\",\"url\":\"https://sosad.fun/qiandao\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1681703534461,
+    "lastUpdateTime": 1682346904384,
     "loginUrl": "https://sosad.fun/",
     "respondTime": 180000,
     "ruleBookInfo": {
@@ -237,7 +238,7 @@
       "wordCount": "span.smaller-20@em@ownText##/.*"
     },
     "ruleContent": {
-      "content": ".no-selection@.warning-tag@html&&.no-selection@span.0@html&&.no-selection@.text-left@html"
+      "content": "@js:\nvar jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\"span.hidden,.font-4\").remove()\njsoup.select(\".no-selection\").html()"
     },
     "ruleExplore": {
       "author": "span.pull-right.smaller-5@text||.col-xs-10@.col-xs-12 > span.1@text",
