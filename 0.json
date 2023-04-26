@@ -631,7 +631,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "enabledReview": false,
-    "lastUpdateTime": 1681042921985,
+    "lastUpdateTime": 1682488212081,
     "respondTime": 81182,
     "ruleBookInfo": {
       "author": "h1@span@text",
@@ -762,14 +762,14 @@
     "bookSourceGroup": "",
     "bookSourceName": "兔九三",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://www.tu93.cc/",
+    "bookSourceUrl": "https://www.tu93.biz/",
     "bookUrlPattern": "\\S+www.tu93.cc.book.\\d+.html",
     "customOrder": -85,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
     "enabledReview": true,
-    "lastUpdateTime": 1681042965510,
+    "lastUpdateTime": 1682488169526,
     "respondTime": 95112,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -781,9 +781,9 @@
       "name": "[property=\"og:novel:book_name\"]@content"
     },
     "ruleContent": {
-      "content": ".panel-body p@ownText@js:result+'🍑下一页'",
-      "nextContentUrl": "a#linkNext@href",
-      "replaceRegex": "##\\s*🍑下一页\\s*|如果内容显示错误.*看看书。"
+      "content": ".panel-body p@html@js:result+'🍑下一页'",
+      "nextContentUrl": "<js>\nif (result.indexOf(\"next.png\") > -1) {\n\tmat = baseUrl.match(/\\/\\d+(_(\\d+))?\\.html/);\n\tpage = Number(mat[2]||1)+1;\n\tbaseUrl.replace(/\\/(\\d+)(_(\\d+))?.html/,'/$1_'+page+'.html')\n\t}\n</js>",
+      "replaceRegex": "##\\s*🍑下一页\\s*|如果内容显示错误.*看看书。|！\\n\\s+「如章节缺失.+模.式」|你看到的#内容#中#间#可#能#有缺失.*才可以#继#续#阅读#全文.或者请使用其它#浏#览#器.或者来：t#u#9#3#.c#c"
     },
     "ruleExplore": {},
     "ruleReview": {},
