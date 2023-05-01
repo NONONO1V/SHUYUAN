@@ -774,7 +774,8 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "enabledReview": true,
-    "lastUpdateTime": 1682941263250,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4080.0 Safari/537.36 Edg/82.0.453.0\"}",
+    "lastUpdateTime": 1682944162987,
     "respondTime": 95112,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -805,7 +806,7 @@
       "chapterName": "text",
       "chapterUrl": "href"
     },
-    "searchUrl": "/search,{\n\t\"method\": \"POST\",\n\t\"body\": \"keyword={{key}}\",\n\t\"headers\": {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4080.0 Safari/537.36 Edg/82.0.453.0\"}\n\t}",
+    "searchUrl": "/search,{\n\t\"method\": \"POST\",\n\t\"body\": \"keyword={{key}}\"\n\t}",
     "weight": 0
   },
   {
