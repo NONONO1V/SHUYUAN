@@ -367,12 +367,13 @@
     "bookSourceName": "PO18肉肉屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://wap.po18.club/",
+    "bookUrlPattern": "\\S+wap.po18.club.book.\\d+.html",
     "customOrder": -93,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
     "enabledReview": false,
-    "lastUpdateTime": 1681045587922,
+    "lastUpdateTime": 1682913791202,
     "respondTime": 80621,
     "ruleBookInfo": {
       "author": ".xq_bookne div.1@text##作者：",
@@ -399,7 +400,7 @@
       "chapterList": "#readerlist li@a",
       "chapterName": "text##「Р.*」|\\s[(].*p|.*m[)]",
       "chapterUrl": "href",
-      "nextTocUrl": "select@option!0@value"
+      "nextTocUrl": "select@option!0@value\n<js>\nif(result.length>=9) {\n\tjava.getString(\"a.pg-next@href\")\n\t} else {\n\tresult\n\t}\n</js>"
     },
     "searchUrl": "/modules/article/search.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all\"\n\t}",
     "weight": 0
