@@ -724,18 +724,17 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "",
-    "bookSourceGroup": "",
+    "bookSourceComment": "正文下一页代码来自一程",
     "bookSourceName": "兔九三",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.tu93.biz/",
-    "bookUrlPattern": "\\S+www.tu93.cc.book.\\d+.html",
+    "bookUrlPattern": "\\S+www.tu93.\\S+.book.\\d+.html",
     "customOrder": -86,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
     "enabledReview": true,
-    "lastUpdateTime": 1682488169526,
+    "lastUpdateTime": 1682934189013,
     "respondTime": 95112,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -747,9 +746,9 @@
       "name": "[property=\"og:novel:book_name\"]@content"
     },
     "ruleContent": {
-      "content": ".panel-body p@html@js:result+'🍑下一页'",
-      "nextContentUrl": "<js>\nif (result.indexOf(\"next.png\") > -1) {\n\tmat = baseUrl.match(/\\/\\d+(_(\\d+))?\\.html/);\n\tpage = Number(mat[2]||1)+1;\n\tbaseUrl.replace(/\\/(\\d+)(_(\\d+))?.html/,'/$1_'+page+'.html')\n\t}\n</js>",
-      "replaceRegex": "##\\s*🍑下一页\\s*|如果内容显示错误.*看看书。|！\\n\\s+「如章节缺失.+模.式」|你看到的#内容#中#间#可#能#有缺失.*才可以#继#续#阅读#全文.或者请使用其它#浏#览#器.或者来：t#u#9#3#.c#c"
+      "content": ".panel-body p@html",
+      "nextContentUrl": "@js:\nif(result.indexOf(\"xyy2.png\") > -1) {\nvar code = result.match(/eval\\(function(.*)\\);/)[0];\ncode = code.replace(/__u[0-9a-f]+/, '__uData');\neval(code);\n\t\n\tif(!__uData.match('_')) {\n\t next = java.getElement(\"@@#linkNext@a\");\n\t __uData = next.attr(\"href\")\n\t}\n__uData\n}",
+      "replaceRegex": "##\\s+「如章节缺失请退#出#阅#读#模#式」\\s+|你看到的.内容.中.*#9#3#.c#c\\s*|"
     },
     "ruleExplore": {},
     "ruleReview": {},
