@@ -540,7 +540,7 @@
     "enabled": true,
     "enabledCookieJar": true,
     "enabledExplore": false,
-    "lastUpdateTime": 1683269106169,
+    "lastUpdateTime": 1683269384484,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -548,7 +548,7 @@
       "coverUrl": "[property=\"og:image\"]@content",
       "intro": ".navtxt@p!-1@html",
       "kind": "[property~=status|category|update_time]@content",
-      "lastChapter": "[\u0002property=\"og:novel:latest_chapter_name\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property$=update_time]@content",
       "name": "[property=\"og:novel:book_name\"]@content",
       "tocUrl": "a.more-btn@href"
     },
