@@ -1208,12 +1208,12 @@
     "bookSourceName": "旧时光文学",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.oldtimeswx.cc/",
-    "bookUrlPattern": "\\S+www.oldtimeswx.cc.go.\\d+.",
+    "bookUrlPattern": "\\S+.go.\\d+.",
     "customOrder": -75,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683349089298,
+    "lastUpdateTime": 1683377637568,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -1242,7 +1242,7 @@
       "chapterName": "text",
       "chapterUrl": "href"
     },
-    "searchUrl": "modules/article/search.php,{\n\t\"charset\": \"gb2312\",\n\t\"method\": \"POST\",\n\t\"body\": \"sosokey={{key}}&action=login&submit=\",\n\t\"headers\": {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36\"}\n\t}",
+    "searchUrl": "modules/article/search.php,{\n\t\"charset\": \"gb2312\",\n\t\"method\": \"POST\",\n\t\"body\": \"sosokey={{key}}&action=login&submit=\"\n\t}",
     "weight": 0
   },
   {
