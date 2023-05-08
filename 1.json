@@ -621,7 +621,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1668750059246,
+    "lastUpdateTime": 1683562948378,
     "respondTime": 11964,
     "ruleBookInfo": {
       "author": "td.article_info_td@div@h2@text",
@@ -634,7 +634,8 @@
       "wordCount": "td.1@div.0@text##\\D"
     },
     "ruleContent": {
-      "content": "#nr1@html"
+      "content": "#nr1@html",
+      "replaceRegex": "##\\&{4}"
     },
     "ruleExplore": {},
     "ruleReview": {},
