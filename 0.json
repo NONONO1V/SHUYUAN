@@ -324,7 +324,6 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "",
     "bookSourceGroup": "正版",
     "bookSourceName": "塔读小说",
     "bookSourceType": 0,
@@ -333,8 +332,7 @@
     "enabled": false,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "header": "{\"user-agent\": \"okhttp/3.10.0.1\"}",
-    "lastUpdateTime": 1683349582114,
+    "lastUpdateTime": 1683522913370,
     "loginUrl": "https://www.tadu.com/",
     "respondTime": 3257,
     "ruleBookInfo": {
@@ -349,8 +347,8 @@
       "wordCount": ".datum@span.0@text##\\s"
     },
     "ruleContent": {
-      "content": ".read_details@p@ownText",
-      "replaceRegex": "##\\s*.*塔读小说APP.*\\s*"
+      "content": "#partContent@html",
+      "replaceRegex": "##\\s.*塔读.*"
     },
     "ruleExplore": {},
     "ruleReview": {},
@@ -716,7 +714,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683345017264,
+    "lastUpdateTime": 1683522733191,
     "respondTime": 35147,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -806,7 +804,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683345024582,
+    "lastUpdateTime": 1683523042905,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "p.bq span a@text",
@@ -834,7 +832,7 @@
       "chapterName": "text",
       "chapterUrl": "href"
     },
-    "searchUrl": "search/,{\n\t\"charset\": \"\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\"\n\t}",
+    "searchUrl": "search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\"\n\t}",
     "weight": 0
   },
   {
@@ -1125,7 +1123,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683345075014,
+    "lastUpdateTime": 1683522887755,
     "respondTime": 80575,
     "ruleBookInfo": {
       "author": "h1@text##.*_|【完结.*】",
@@ -1145,7 +1143,7 @@
       "bookList": "article",
       "bookUrl": "h2@a@href",
       "intro": "span.note@text##\\s|【分类：.*】",
-      "name": "h2@a@text##\\[.*同人]|_.*"
+      "name": "h2@a@text##\\d+\\.\\s|\\[.*同人]|_.*"
     },
     "ruleToc": {
       "chapterList": "li.mulu@a",
@@ -1254,7 +1252,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683345084018,
+    "lastUpdateTime": 1683522960551,
     "respondTime": 3087,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
