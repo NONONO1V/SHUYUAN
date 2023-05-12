@@ -672,7 +672,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683280591259,
+    "lastUpdateTime": 1683885358013,
     "respondTime": 81182,
     "ruleBookInfo": {
       "author": "h1@span@text",
@@ -701,7 +701,7 @@
       "chapterUrl": "onclick##.*[/](\\d+)[.].*##$1.html",
       "nextTocUrl": "select@option@value"
     },
-    "searchUrl": "https://ms6ge.35meigui.com/modules/article/bas1e32_U2VhdmU_tbtest.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all\",\n\t\"headers\": {\"Referer\": \"https://www.35meigui.com/\"}\n\t}",
+    "searchUrl": "https://ms6ge.35meigui.com/modules/article/gXJdPaOr1_RiSsV_ztqW6Nh.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all\",\n\t\"headers\": {\"Referer\": \"https://www.35meigui.com/\"}\n\t}",
     "weight": 0
   },
   {
