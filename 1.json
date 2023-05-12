@@ -167,8 +167,8 @@
     "enabledCookieJar": true,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"现代\",\"url\":\"/forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=1&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"古风\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=2&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"民国\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=3&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"西方\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=4&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"科幻\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=5&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"奇幻\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=6&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"玄幻\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=7&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"网游\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=8&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"穿越\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=9&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"百合\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=35&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"征文\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=71&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"灵异\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=76&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"往期\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=77&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"其他\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=10&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.1}},\n{\"title\":\"公告\",\"url\":\"forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=11&sortid=8&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"文章\",\"url\":\"forum.php?mod=forumdisplay&fid=4&page={{page}}\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"我的收藏\",\"url\":\"https://allcp.net/home.php?mod=space&do=favorite&view=me\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}}]",
-    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 9; zh-CN; Mi Note 3 Build/PKQ1.181007.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.1.9.1099 Mobile Safari/537.36\"}",
-    "lastUpdateTime": 1683817832710,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1683871806186,
     "loginUrl": "https://allcp.net/member.php?mod=logging&action=login&mobile=2",
     "respondTime": 190046,
     "ruleBookInfo": {
@@ -790,6 +790,48 @@
       "chapterUrl": "href"
     },
     "searchUrl": "/search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all\"\n\t}",
+    "weight": 0
+  },
+  {
+    "bookSourceName": "一品侠",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yipingxia.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1683873126674,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": ".tab@p.p1@text##作者：",
+      "canReName": "1",
+      "coverUrl": ".tu@img@src",
+      "intro": ".jj@p.p2@html",
+      "kind": ".tab1@p!-1@text&&.info_chapters@p.p1.0@text##.*更新：|\\s\\)",
+      "lastChapter": ".tab@p.p3@a@text&&.info_chapters@p.p1.0@text##.*更新：|\\s\\)",
+      "name": ".catalog@h1@text"
+    },
+    "ruleContent": {
+      "content": "#novelcontent.novelcontent@html",
+      "nextContentUrl": "li@a.p4@href"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "a.2@text",
+      "bookList": "p.search_list",
+      "bookUrl": "a.0@href",
+      "kind": "a.1@text",
+      "name": "a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "ul.p2.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "select@option@value"
+    },
+    "searchUrl": "search.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&type=articlename\"\n\t}",
     "weight": 0
   }
 ]
