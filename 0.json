@@ -844,7 +844,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4080.0 Safari/537.36 Edg/82.0.453.0\"}",
-    "lastUpdateTime": 1684122861497,
+    "lastUpdateTime": 1684411423865,
     "respondTime": 95112,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -858,7 +858,7 @@
     "ruleContent": {
       "content": ".panel-body p@html",
       "nextContentUrl": "@js:\nif(result.indexOf(\"xyy2.png\") > -1) {\nvar code = result.match(/eval\\(function(.*)\\);/)[0];\ncode = code.replace(/__u[0-9a-f]+/, '__uData');\neval(code);\n\t\n\tif(!__uData.match('_')) {\n\t next = java.getElement(\"@@#linkNext@a\");\n\t __uData = next.attr(\"href\")\n\t}\n__uData\n}",
-      "replaceRegex": "##\\s+「如章节缺失请退#出#阅#读#模#式」\\s+|你看到的.?内容.?中.*#9#3#\\S+\\s*|\\s.*向你推荐他的其他作品.*希望你也喜欢|\\s+你的朋友正在书荒，快去帮帮他吧|！(?=\\n)|听说看这本书的人都是很幸运的，分享后你的运气会更棒|恭喜你可以去书友们那里给他们剧透了，他们一定会“羡慕嫉妒恨”的|你身边有不少朋友还没看到本章呢，快去给他们剧透吧"
+      "replaceRegex": "##\\s+「如章节缺失请退#出#阅#读#模#式」\\s+|你看到的.?内容.?中.*#9#3#\\S+\\s*|\\s.*向你推荐他的其他作品.*希望你也喜欢|\\s+你的朋友正在书荒，快去帮帮他吧|！(?=\\n)|听说看这本书的人都是很幸运的，分享后你的运气会更棒|恭喜你可以去书友们那里给他们剧透了，他们一定会“羡慕嫉妒恨”的|你身边有不少朋友还没看到本章呢，快去给他们剧透吧|.*本书作者.+提醒您.*"
     },
     "ruleExplore": {},
     "ruleReview": {},
