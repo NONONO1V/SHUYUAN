@@ -210,32 +210,32 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "登录时记得选择【记住我】",
+    "bookSourceComment": "登录时记得选择【记住我】;\n登录使用搜索",
     "bookSourceGroup": "原创",
-    "bookSourceName": "废文",
+    "bookSourceName": "废文网",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://sosad.fun/",
-    "bookUrlPattern": "\\S+sosad.fun.threads.\\d+\\S+",
+    "bookSourceUrl": "https://sosadfun.link/",
+    "bookUrlPattern": "\\S+sosadfun.link.threads.\\d+\\S+",
     "customOrder": -96,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
-    "exploreUrl": "[{\"title\":\"编推金麦穗\",\"url\":\"/books?withTag=1835&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"收藏\",\"url\":\"/collection\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"签到\",\"url\":\"https://sosad.fun/qiandao\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1682346904384,
-    "loginUrl": "https://sosad.fun/",
+    "exploreUrl": "[{\"title\":\"编推金麦穗\",\"url\":\"/books?withTag=1835&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"收藏\",\"url\":\"/collection\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"签到\",\"url\":\"https://sosadfun.link/qiandao\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+    "lastUpdateTime": 1684656928431,
+    "loginUrl": "https://sosadfun.link/",
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "span.majia@text||.panel-body@.article-body.text-center@div.0@.h5@div.0@a.0@text",
       "canReName": "1",
       "init": ".panel.panel-default.0",
-      "intro": "<br>{{@@.panel-body@.article-body.text-center@div.0@.h5@.grayout@text##$##<br>&lrm;}}\n{{@@.panel-body@.article-title.text-center@.h5@text##$##<br>&lrm;}}\n{{@@.main-text.text-center@html}}",
-      "kind": "{{@@span.jinghua-label@title##$##,}}{{@@span.glyphicon-warning-sign@title##$##,}}{{@@span.bianyuan-tag@title##$##,}}{{@@span.recommend-label@title##推荐##🌾推,}}{{@@.panel-body@.article-body.text-center@div.0@.h5@div.0@a!0@text##编推金麦穗}}",
+      "intro": "<br>{{@@.panel-body@.article-body.text-center@div.0@.h5@div.0@a!0@text##^|[\\n]##🏷️}}\n{{'<br>&lrm;'}}\n{{@@.panel-body@.article-body.text-center@div.0@.h5@.grayout@text##$##<br>&lrm;}}\n{{@@.panel-body@.article-title.text-center@.h5@text##$##<br>&lrm;}}\n{{@@.main-text.text-center@html}}",
+      "kind": "{{@@span.jinghua-label@title##$##,}}{{@@span.glyphicon-warning-sign@title##$##,}}{{@@span.bianyuan-tag@title##$##,}}{{@@span.recommend-label@title##推荐##🌾推}}",
       "lastChapter": ".line-height-1@span.pull-left@a@text##最新章节《|》",
       "name": ".font-2@a.font-1@text",
       "wordCount": "span.smaller-20@em@ownText##/.*"
     },
     "ruleContent": {
-      "content": "@js:\nvar jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\"span.hidden,.font-4\").remove()\njsoup.select(\".no-selection\").html()"
+      "content": "@js:\nvar jsoup = org.jsoup.Jsoup.parse(result);\njsoup.select(\"span.hidden,.font-4\").remove();\njsoup.select(\".no-selection\").html()"
     },
     "ruleExplore": {
       "author": "span.pull-right.smaller-5@text||.col-xs-10@.col-xs-12 > span.1@text",
