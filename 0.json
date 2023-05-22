@@ -14,7 +14,7 @@
     "header": "{\"User-Agent\": \"JINJIANG-iOS/5.1.0\"}",
     "lastUpdateTime": 1684735592178,
     "loginUrl": "https://my.jjwxc.net/",
-    "respondTime": 5217,
+    "respondTime": 4218,
     "ruleBookInfo": {
       "author": "[name=\"Author\"]@content",
       "canReName": "1",
@@ -75,7 +75,7 @@
     "exploreUrl": "[{\"title\":\"作者积分榜\",\"url\":\"https://android.jjwxc.net/bookstore/scorelistV1?offset={{(page-1)*25}}&limit=25\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}]",
     "header": "{\"User-Agent\": \"JINJIANG-iOS/5.1.0\"}",
     "lastUpdateTime": 1683349569464,
-    "respondTime": 1629,
+    "respondTime": 2879,
     "ruleBookInfo": {
       "author": "span[itemprop='name']@text",
       "canReName": "1",
@@ -127,7 +127,7 @@
     "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/all/<,page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"▼▼男生▼▼\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"▼玄幻▼\",\"url\":\"/all/chanId21<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"东方玄幻\",\"url\":\"/all/chanId21-subCateId8<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"异世大陆\",\"url\":\"/all/chanId21-subCateId73<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"王朝争霸\",\"url\":\"/all/chanId21-subCateId58<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"高武世界\",\"url\":\"/all/chanId21-subCateId78<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"▼奇幻▼\",\"url\":\"/all/chanId1<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"现代魔法\",\"url\":\"/all/chanId1-subCateId38<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"剑与魔法\",\"url\":\"/all/chanId1-subCateId62<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"史诗奇幻\",\"url\":\"/all/chanId1-subCateId201<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"神秘幻想\",\"url\":\"/all/chanId1-subCateId202<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史神话\",\"url\":\"/all/chanId1-subCateId20092<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"另类幻想\",\"url\":\"/all/chanId1-subCateId20093<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"▼武侠▼\",\"url\":\"/all/chanId2<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"传统武侠\",\"url\":\"/all/chanId2-subCateId5<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"武侠幻想\",\"url\":\"/all/chanId2-subCateId30<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"国术无双\",\"url\":\"/all/chanId2-subCateId206<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"古武未来\",\"url\":\"/all/chanId2-subCateId20099<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"武侠同人\",\"url\":\"/all/chanId2-subCateId20100<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"▼仙侠▼\",\"url\":\"/all/chanId22<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"修真文明\",\"url\":\"/all/chanId22-subCateId18<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"幻想修仙\",\"url\":\"/all/chanId22-subCateId44<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"现代修真\",\"url\":\"/all/chanId22-subCateId64<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"神话修真\",\"url\":\"/all/chanId22-subCateId207<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"古典仙侠\",\"url\":\"/all/chanId22-subCateId20101<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"▼都市▼\",\"url\":\"/all/chanId4<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"都市生活\",\"url\":\"/all/chanId4-subCateId12<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市异能\",\"url\":\"/all/chanId4-subCateId16<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"异术超能\",\"url\":\"/all/chanId4-subCateId74<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"青春校园\",\"url\":\"/all/chanId4-subCateId130<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"娱乐明星\",\"url\":\"/all/chanId4-subCateId151<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"商战职场\",\"url\":\"/all/chanId4-subCateId153<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"▼现实▼\",\"url\":\"/all/chanId15<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"社会乡土\",\"url\":\"/all/chanId15-subCateId20104<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"生活时尚\",\"url\":\"/all/chanId15-subCateId20105<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"文学艺术\",\"url\":\"/all/chanId15-subCateId20106<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"成功励志\",\"url\":\"/all/chanId15-subCateId20107<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"青春文学\",\"url\":\"/all/chanId15-subCateId20108<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"爱情婚姻\",\"url\":\"/all/chanId15-subCateId6<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"现实百态\",\"url\":\"/all/chanId15-subCateId209<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"▼军事▼\",\"url\":\"/all/chanId6<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"军旅生涯\",\"url\":\"/all/chanId6-subCateId54<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"军事战争\",\"url\":\"/all/chanId6-subCateId65<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"战争幻想\",\"url\":\"/all/chanId6-subCateId80<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"抗战烽火\",\"url\":\"/all/chanId6-subCateId230<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"谍战特工\",\"url\":\"/all/chanId6-subCateId231<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"▼历史▼\",\"url\":\"/all/chanId5<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"架空历史\",\"url\":\"/all/chanId5-subCateId22<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"秦汉三国\",\"url\":\"/all/chanId5-subCateId48<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"上古先秦\",\"url\":\"/all/chanId5-subCateId220<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"历史传记\",\"url\":\"/all/chanId5-subCateId32<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"两晋隋唐\",\"url\":\"/all/chanId5-subCateId222<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"五代十国\",\"url\":\"/all/chanId5-subCateId223<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"两宋元明\",\"url\":\"/all/chanId5-subCateId224<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"清史民国\",\"url\":\"/all/chanId5-subCateId225<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"外国历史\",\"url\":\"/all/chanId5-subCateId226<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"民间传说\",\"url\":\"/all/chanId5-subCateId20094<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"▼游戏▼\",\"url\":\"/all/chanId7<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"电子竞技\",\"url\":\"/all/chanId7-subCateId7<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"虚拟网游\",\"url\":\"/all/chanId7-subCateId70<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"游戏异界\",\"url\":\"/all/chanId7-subCateId240<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"游戏系统\",\"url\":\"/all/chanId7-subCateId20102<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"游戏主播\",\"url\":\"/all/chanId7-subCateId20103<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"▼体育▼\",\"url\":\"/all/chanId8<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"篮球运动\",\"url\":\"/all/chanId8-subCateId28<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"体育赛事\",\"url\":\"/all/chanId8-subCateId55<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"足球运动\",\"url\":\"/all/chanId8-subCateId82<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"▼科幻▼\",\"url\":\"/all/chanId9<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"古武机甲\",\"url\":\"/all/chanId9-subCateId21<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"未来世界\",\"url\":\"/all/chanId9-subCateId25<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"星际文明\",\"url\":\"/all/chanId9-subCateId68<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"超级科技\",\"url\":\"/all/chanId9-subCateId250<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"时空穿梭\",\"url\":\"/all/chanId9-subCateId251<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"进化变异\",\"url\":\"/all/chanId9-subCateId252<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"末世危机\",\"url\":\"/all/chanId9-subCateId253<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"▼诸天无限▼\",\"url\":\"/all/chanId20109<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"无限\",\"url\":\"/all/chanId20109-subCateId20110<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"诸天\",\"url\":\"/all/chanId20109-subCateId20111<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"综漫\",\"url\":\"/all/chanId20109-subCateId20112<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"▼悬疑▼\",\"url\":\"/all/chanId10<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"诡秘悬疑\",\"url\":\"/all/chanId10-subCateId26<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"奇妙世界\",\"url\":\"/all/chanId10-subCateId35<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"侦探推理\",\"url\":\"/all/chanId10-subCateId57<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"探险生存\",\"url\":\"/all/chanId10-subCateId260<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"古今传奇\",\"url\":\"/all/chanId10-subCateId20095<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"▼轻小说▼\",\"url\":\"/all/chanId12<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"原生幻想\",\"url\":\"/all/chanId12-subCateId60<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"恋爱日常\",\"url\":\"/all/chanId12-subCateId66<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"衍生同人\",\"url\":\"/all/chanId12-subCateId281<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"搞笑吐槽\",\"url\":\"/all/chanId12-subCateId282<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"▼短篇▼\",\"url\":\"/all/chanId201<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"诗歌散文\",\"url\":\"/all/chanId20076-subCateId20097<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"人物传记\",\"url\":\"/all/chanId20076-subCateId20098<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"影视剧本\",\"url\":\"/all/chanId20076-subCateId20075<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"评论文集\",\"url\":\"/all/chanId20076-subCateId20077<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"生活随笔\",\"url\":\"/all/chanId20076-subCateId20078<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"美文游记\",\"url\":\"/all/chanId20076-subCateId20079<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"短篇小说\",\"url\":\"/all/chanId20076-subCateId20096<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"▼▼女生▼▼\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"▼古代言情▼\",\"url\":\"/all/chanId80<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"古代情缘\",\"url\":\"/all/chanId80-subCateId801<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"宫闱宅斗\",\"url\":\"/all/chanId80-subCateId802<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"经商种田\",\"url\":\"/all/chanId80-subCateId803<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"古典架空\",\"url\":\"/all/chanId80-subCateId804<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"女尊王朝\",\"url\":\"/all/chanId80-subCateId805<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"穿越奇情\",\"url\":\"/all/chanId80-subCateId806<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"西方时空\",\"url\":\"/all/chanId80-subCateId30094<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"清穿民国\",\"url\":\"/all/chanId80-subCateId30095<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"上古蛮荒\",\"url\":\"/all/chanId80-subCateId30096<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"热血江湖\",\"url\":\"/all/chanId80-subCateId30097<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"▼仙侠奇缘▼\",\"url\":\"/all/chanId81<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"武侠情缘\",\"url\":\"/all/chanId81-subCateId810<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"古典仙侠\",\"url\":\"/all/chanId81-subCateId811<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"现代修真\",\"url\":\"/all/chanId81-subCateId812<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"远古洪荒\",\"url\":\"/all/chanId81-subCateId813<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"仙侣奇缘\",\"url\":\"/all/chanId81-subCateId30093<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"▼现代言情▼\",\"url\":\"/all/chanId82<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"商战职场\",\"url\":\"/all/chanId82-subCateId821<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"豪门世家\",\"url\":\"/all/chanId82-subCateId822<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市生活\",\"url\":\"/all/chanId82-subCateId823<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"婚恋情缘\",\"url\":\"/all/chanId82-subCateId824<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"娱乐明星\",\"url\":\"/all/chanId82-subCateId825<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市异能\",\"url\":\"/all/chanId82-subCateId827<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"极道江湖\",\"url\":\"/all/chanId82-subCateId828<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"民国情缘\",\"url\":\"/all/chanId82-subCateId829<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"异国情缘\",\"url\":\"/all/chanId82-subCateId30098<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"▼浪漫青春▼\",\"url\":\"/all/chanId83<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"青春校园\",\"url\":\"/all/chanId83-subCateId831<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"青春疼痛\",\"url\":\"/all/chanId83-subCateId832<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"叛逆成长\",\"url\":\"/all/chanId83-subCateId833<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"青春纯爱\",\"url\":\"/all/chanId83-subCateId834<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"▼玄幻言情▼\",\"url\":\"/all/chanId84<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"东方玄幻\",\"url\":\"/all/chanId84-subCateId841<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"异世大陆\",\"url\":\"/all/chanId84-subCateId844<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"西方奇幻\",\"url\":\"/all/chanId84-subCateId846<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"远古神话\",\"url\":\"/all/chanId84-subCateId847<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"异族恋情\",\"url\":\"/all/chanId84-subCateId848<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"魔法幻情\",\"url\":\"/all/chanId84-subCateId849<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"异能超术\",\"url\":\"/all/chanId84-subCateId30092<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"▼悬疑推理▼\",\"url\":\"/all/chanId85<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"推理侦探\",\"url\":\"/all/chanId85-subCateId850<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"诡秘惊险\",\"url\":\"/all/chanId85-subCateId851<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"悬疑探险\",\"url\":\"/all/chanId85-subCateId852<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"奇妙世界\",\"url\":\"/all/chanId85-subCateId853<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"神秘文化\",\"url\":\"/all/chanId85-subCateId854<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"幽情奇缘\",\"url\":\"/all/chanId85-subCateId30099<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"▼短篇▼\",\"url\":\"/all/chanId30083<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"▼科幻空间▼\",\"url\":\"/all/chanId86<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"星际恋歌\",\"url\":\"/all/chanId86-subCateId864<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"时空穿梭\",\"url\":\"/all/chanId86-subCateId866<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"未来世界\",\"url\":\"/all/chanId86-subCateId862<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"古武机甲\",\"url\":\"/all/chanId86-subCateId867<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"超级科技\",\"url\":\"/all/chanId86-subCateId868<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"进化变异\",\"url\":\"/all/chanId86-subCateId863<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"末世危机\",\"url\":\"/all/chanId86-subCateId869<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"▼游戏竞技▼\",\"url\":\"/all/chanId88<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"电子竞技\",\"url\":\"/all/chanId88-subCateId880<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"网游情缘\",\"url\":\"/all/chanId88-subCateId881<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"游戏异界\",\"url\":\"/all/chanId88-subCateId882<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"体育竞技\",\"url\":\"/all/chanId88-subCateId883<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"▼轻小说▼\",\"url\":\"/all/chanId87<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"同人衍生\",\"url\":\"/all/chanId87-subCateId30100<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"唯美幻想\",\"url\":\"/all/chanId87-subCateId30101<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"萌系变身\",\"url\":\"/all/chanId87-subCateId30102<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"恋爱日常\",\"url\":\"/all/chanId87-subCateId30103<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"搞笑吐槽\",\"url\":\"/all/chanId87-subCateId30104<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"古典衍生\",\"url\":\"/all/chanId87-subCateId30105<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"影视衍生\",\"url\":\"/all/chanId87-subCateId30106<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"动漫衍生\",\"url\":\"/all/chanId87-subCateId30107<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"其他衍生\",\"url\":\"/all/chanId87-subCateId30108<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"▼现实生活▼\",\"url\":\"/all/chanId30120<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"家与情感\",\"url\":\"/all/chanId30120-subCateId30121<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"行业人生\",\"url\":\"/all/chanId30120-subCateId30122<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"探索科幻\",\"url\":\"/all/chanId30120-subCateId30123<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"人文博览\",\"url\":\"/all/chanId30120-subCateId30124<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"▼▼出版▼▼\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"小说\",\"url\":\"/all/chanId13100<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"青春文学\",\"url\":\"/all/chanId14300<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"两性关系\",\"url\":\"/all/chanId13700<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"文学\",\"url\":\"/all/chanId14100<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"/all/chanId14400<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"传记\",\"url\":\"/all/chanId14500<,-page{{page}}>/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
     "lastUpdateTime": 1684481994991,
     "loginUrl": "https://my.qidian.com/",
-    "respondTime": 6302,
+    "respondTime": 9472,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "canReName": "1",
@@ -187,7 +187,7 @@
     "enabledExplore": false,
     "lastUpdateTime": 1683349555547,
     "loginUrl": "https://book.qq.com/book-shelf",
-    "respondTime": 180000,
+    "respondTime": 2921,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",
@@ -485,8 +485,8 @@
     "enabledCookieJar": true,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"/flei/xuanhuan/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"仙侠小说\",\"url\":\"/flei/xianxia/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市小说\",\"url\":\"/flei/dushi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"历史军事\",\"url\":\"/flei/lishi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"游戏竞技\",\"url\":\"/flei/youxi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻小说\",\"url\":\"/flei/kehuan/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"恐怖小说\",\"url\":\"/flei/kongbu/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"其他类型\",\"url\":\"/flei/qita/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1684744728552,
-    "respondTime": 85854,
+    "lastUpdateTime": 1684762828526,
+    "respondTime": 186868,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "canReName": "1",
@@ -521,9 +521,9 @@
     },
     "ruleToc": {
       "chapterList": ".chaw_c@li@a",
-      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "text",
       "chapterUrl": "href\n<js>\noption = {\n\t\"headers\": {\n\t\t\"referer\": String(book.origin).replace(/.$/,\"\")+result\n\t\t}\n\t};\nresult+\",\"+JSON.stringify(option)\n</js>",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\",\n\t\"webView\": true\n\t}",
     "weight": 0
@@ -538,7 +538,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "lastUpdateTime": 1683344971314,
-    "respondTime": 180000,
+    "respondTime": 6863,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "canReName": "1",
@@ -583,7 +583,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "lastUpdateTime": 1683344974364,
-    "respondTime": 7095,
+    "respondTime": 10406,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "canReName": "1",
@@ -628,8 +628,8 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744824801,
-    "respondTime": 1891,
+    "lastUpdateTime": 1684762949212,
+    "respondTime": 4008,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "canReName": "1",
@@ -655,9 +655,9 @@
     },
     "ruleToc": {
       "chapterList": "dd@a",
-      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "book/search.aspx?key={{key}}",
     "weight": 0
@@ -672,8 +672,8 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744841884,
-    "respondTime": 81182,
+    "lastUpdateTime": 1684762969987,
+    "respondTime": 181699,
     "ruleBookInfo": {
       "author": "h1@span@text",
       "canReName": "1",
@@ -697,60 +697,12 @@
     },
     "ruleToc": {
       "chapterList": ".contlist li@el-tag",
-      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "text",
       "chapterUrl": "onclick##.*[/](\\d+)[.].*##$1.html",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")",
       "nextTocUrl": "select@option@value"
     },
-    "searchUrl": "https://ms6ge.35meigui.com/modules/article/gXJdPaOr1_RiSsV_ztqW6Nh.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all\",\n\t\"headers\": {\"Referer\": \"https://www.35meigui.com/\"}\n\t}",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "与www.xbookben.net同源",
-    "bookSourceGroup": "",
-    "bookSourceName": "六零文学",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.60355.net/",
-    "customOrder": -86,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": false,
-    "lastUpdateTime": 1684746119782,
-    "respondTime": 35147,
-    "ruleBookInfo": {
-      "author": "[property=\"og:novel:author\"]@content",
-      "canReName": "1",
-      "coverUrl": "[property=\"og:image\"]@content",
-      "intro": "[property=\"og:description\"]@content##(^|[。！？\\s]+[”」）】]?)##$1<br>",
-      "kind": "[property~=status|category|update_time]@content",
-      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property$=update_time]@content",
-      "name": "[property=\"og:novel:book_name\"]@content",
-      "tocUrl": "text.章节目录@href",
-      "wordCount": "#info@p.2@text##字数：|\\s"
-    },
-    "ruleContent": {
-      "content": "#booktxt@p@ownText",
-      "nextContentUrl": "text.下一页@href",
-      "replaceRegex": "##本章未完.*下一页继续阅读."
-    },
-    "ruleExplore": {},
-    "ruleReview": {},
-    "ruleSearch": {
-      "author": "dl@.btm@a@text",
-      "bookList": ".item",
-      "bookUrl": "dl@dt@a@href",
-      "checkKeyWord": "这个",
-      "intro": "dl@dd@html",
-      "name": "dl@dt@a@text"
-    },
-    "ruleToc": {
-      "chapterList": "#content_1@a",
-      "chapterName": "dd@text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
-      "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")",
-      "nextTocUrl": "select@option@value"
-    },
-    "searchUrl": "search/?searchkey={{key}}",
+    "searchUrl": "https://ms6ge.35meigui.com/modules/article/Hslfog_YR8laO.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all\",\n\t\"headers\": {\"Referer\": \"https://www.35meigui.com/\"}\n\t}",
     "weight": 0
   },
   {
@@ -759,12 +711,12 @@
     "bookSourceName": "妙笔文学",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.mbtxt.la/",
-    "customOrder": -85,
+    "customOrder": -86,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744863523,
-    "respondTime": 3541,
+    "lastUpdateTime": 1684762991090,
+    "respondTime": 4257,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "canReName": "1",
@@ -792,9 +744,9 @@
     },
     "ruleToc": {
       "chapterList": "#list-chapterAll@dd@a",
-      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "modules/article/search1.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&action=login\"\n\t}",
     "weight": 0
@@ -803,12 +755,12 @@
     "bookSourceName": "静夜读",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.545xs.com/",
-    "customOrder": -84,
+    "customOrder": -85,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744870473,
-    "respondTime": 180000,
+    "lastUpdateTime": 1684763003866,
+    "respondTime": 8766,
     "ruleBookInfo": {
       "author": "p.bq span a@text",
       "canReName": "1",
@@ -832,9 +784,9 @@
     },
     "ruleToc": {
       "chapterList": ".ml_list li a",
-      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\"\n\t}",
     "weight": 0
@@ -845,13 +797,13 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.tu93.biz/",
     "bookUrlPattern": "\\S+www.tu93.\\S+.book.\\d+.html",
-    "customOrder": -83,
+    "customOrder": -84,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
     "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4080.0 Safari/537.36 Edg/82.0.453.0\"}",
-    "lastUpdateTime": 1684744884557,
-    "respondTime": 95112,
+    "lastUpdateTime": 1684763026268,
+    "respondTime": 3993,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "canReName": "1",
@@ -878,9 +830,9 @@
     },
     "ruleToc": {
       "chapterList": "dd.col-md-3@a",
-      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "search,{\n\t\"method\": \"POST\",\n\t\"body\": \"keyword={{key}}\"\n\t}",
     "weight": 0
@@ -891,12 +843,12 @@
     "bookSourceName": "孤灯阁",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.gudengge.com/",
-    "customOrder": -82,
+    "customOrder": -83,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744891358,
-    "respondTime": 6690,
+    "lastUpdateTime": 1684763039355,
+    "respondTime": 12850,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "canReName": "1",
@@ -922,9 +874,9 @@
     },
     "ruleToc": {
       "chapterList": "dd@a",
-      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "http://m.gudengge.com/s.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"keyword={{key}}\"\n\t}",
     "weight": 0
@@ -934,12 +886,12 @@
     "bookSourceName": "书库网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.shukw.com/",
-    "customOrder": -81,
+    "customOrder": -82,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744898685,
-    "respondTime": 180000,
+    "lastUpdateTime": 1684763049416,
+    "respondTime": 3295,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",
@@ -966,9 +918,9 @@
     },
     "ruleToc": {
       "chapterList": "dl > a",
-      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "search/?searchkey={{key}}",
     "weight": 0
@@ -978,13 +930,13 @@
     "bookSourceName": "独步小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.dubuxiaoshuo.com/",
-    "customOrder": -80,
+    "customOrder": -81,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"玄幻·奇幻\",\"url\":\"/nav/xh-qh-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻·游戏\",\"url\":\"/nav/kh-yx-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"仙侠·武侠\",\"url\":\"/nav/xx-wx-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"女生·言情\",\"url\":\"/nav/ns-yq-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市·娱乐\",\"url\":\"/nav/ds-yl-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"历史·军事\",\"url\":\"/nav/ls-js-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"悬疑·灵异\",\"url\":\"/nav/xy-ly-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"耽美·纯爱\",\"url\":\"/nav/dm-ca-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"成长·励志\",\"url\":\"/nav/cz-lz-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"散文·随笔\",\"url\":\"/nav/sw-sb-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"轻小说\",\"url\":\"/nav/qxs-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"国外文学\",\"url\":\"/nav/gwwx-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"文学名著\",\"url\":\"/nav/wxmz-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"现当代文学\",\"url\":\"/nav/xddwx-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
     "lastUpdateTime": 1683345038931,
-    "respondTime": 2092,
+    "respondTime": 3388,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "canReName": "1",
@@ -1025,13 +977,13 @@
     "bookSourceName": "霹雳书坊",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.pilibook.net/",
-    "customOrder": -79,
+    "customOrder": -80,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"男频小说\",\"url\":\"/sort/1_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"女频小说\",\"url\":\"/sort/2_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"中国文学\",\"url\":\"/sort/3_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"外国文学\",\"url\":\"/sort/4_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"轻小说\",\"url\":\"/sort/5_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"百合小说\",\"url\":\"/sort/6_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"耽美小说\",\"url\":\"/sort/7_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"男主无CP\",\"url\":\"/sort/8_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
     "lastUpdateTime": 1683345043137,
-    "respondTime": 7508,
+    "respondTime": 5632,
     "ruleBookInfo": {
       "author": ".infotype@a@text",
       "canReName": "1",
@@ -1076,13 +1028,13 @@
     "bookSourceName": "腐小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.fuxs2.cc/",
-    "customOrder": -78,
+    "customOrder": -79,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"现代耽美\",\"url\":\"/xiandai/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"古代耽美\",\"url\":\"/gudai/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"穿越重生\",\"url\":\"/chuanyue/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"玄幻灵异\",\"url\":\"/qihuan/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"网游竞技\",\"url\":\"/wangyou/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"同人耽美\",\"url\":\"/tongren/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"G L 百合\",\"url\":\"/baihe/<,list_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
     "lastUpdateTime": 1683345071121,
-    "respondTime": 455,
+    "respondTime": 1166,
     "ruleBookInfo": {
       "author": "strong@a@text",
       "canReName": "1",
@@ -1126,12 +1078,12 @@
     "bookSourceName": "52书库",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.52shuku.vip/",
-    "customOrder": -77,
+    "customOrder": -78,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
     "lastUpdateTime": 1683522887755,
-    "respondTime": 80575,
+    "respondTime": 2306,
     "ruleBookInfo": {
       "author": "h1@text##.*_|【完结.*】",
       "canReName": "1",
@@ -1166,13 +1118,13 @@
     "bookSourceName": "256中文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.256zw.cc/",
-    "customOrder": -76,
+    "customOrder": -77,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"现代耽美\",\"url\":\"/xiandai/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"古代架空\",\"url\":\"/jiakong/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"穿越重生\",\"url\":\"/chuanyue/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"BL同人\",\"url\":\"/bltongren/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"GL百合\",\"url\":\"/glbaihe/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"玄幻科幻\",\"url\":\"/xuanhuan/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市言情\",\"url\":\"/yanqing/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"古代言情\",\"url\":\"/gudaiyanqing/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
     "lastUpdateTime": 1683345081230,
-    "respondTime": 80360,
+    "respondTime": 2353,
     "ruleBookInfo": {
       "author": ".infotype.infotype_mulu@span.bookinfo.0@text##【完结[+]番外",
       "canReName": "1",
@@ -1214,12 +1166,12 @@
     "bookSourceName": "果冻小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.guodongxsw.com/",
-    "customOrder": -75,
+    "customOrder": -76,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744919087,
-    "respondTime": 180000,
+    "lastUpdateTime": 1684763077428,
+    "respondTime": 4118,
     "ruleBookInfo": {
       "author": "#author a@text",
       "canReName": "1",
@@ -1245,9 +1197,9 @@
     },
     "ruleToc": {
       "chapterList": "#readerlist@li@a",
-      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=articlename\"\n\t}",
     "weight": 0
@@ -1256,12 +1208,12 @@
     "bookSourceName": "西瓜小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xigua211.net/",
-    "customOrder": -74,
+    "customOrder": -75,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744927707,
-    "respondTime": 180000,
+    "lastUpdateTime": 1684763089500,
+    "respondTime": 3895,
     "ruleBookInfo": {
       "author": "p.a@span@a@text",
       "canReName": "1",
@@ -1288,9 +1240,9 @@
     },
     "ruleToc": {
       "chapterList": ".shang@li@a",
-      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")",
       "nextTocUrl": "text.下页@href"
     },
     "searchUrl": "/index.php?do=wap_sea&so=yes&name={{key}}",
@@ -1300,12 +1252,12 @@
     "bookSourceName": "旧时光文学",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.oldtimeswx.cc/",
-    "customOrder": -73,
+    "customOrder": -74,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744940594,
-    "respondTime": 180000,
+    "lastUpdateTime": 1684763105154,
+    "respondTime": 4879,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",
@@ -1331,9 +1283,9 @@
     },
     "ruleToc": {
       "chapterList": "#list-chapterAll@dd@a",
-      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "modules/article/search.php,{\n\t\"charset\": \"gb2312\",\n\t\"method\": \"POST\",\n\t\"body\": \"sosokey={{key}}&action=login&submit=\"\n\t}",
     "weight": 0
@@ -1343,12 +1295,12 @@
     "bookSourceName": "恋上你看书",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.630shu.net/",
-    "customOrder": -72,
+    "customOrder": -73,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744958810,
-    "respondTime": 3087,
+    "lastUpdateTime": 1684763121190,
+    "respondTime": 3377,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "canReName": "1",
@@ -1373,11 +1325,53 @@
     },
     "ruleToc": {
       "chapterList": "dl@dd@a",
-      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&page={{page}},{\"charset\": \"gbk\"}",
+    "weight": 0
+  },
+  {
+    "bookSourceName": "大文学无错",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.wcxsw.org/",
+    "customOrder": -72,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0\"}",
+    "lastUpdateTime": 1684757999771,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "#intro@p!-1@html",
+      "kind": "[property~=status|category|update_time]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property$=update_time]@content",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "#content p@html",
+      "replaceRegex": "##【.*换源App.*】",
+      "title": "h1@text"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "span.s4@text",
+      "bookList": "<js>\nif(result.match(/Just a moment|请稍候…|加载页面中...|DDoS protection by 饼干大仙 法力无边/)) {\n\tcookie.removeCookie(source.bookSourceUrl);\n\tjava.startBrowserAwait(baseUrl,\"验证\");\n\tresult=java.ajax(baseUrl)\n\t};\nresult\n</js>\n.novelslist2@li!0",
+      "bookUrl": "span.s2@a@href",
+      "checkKeyWord": "柯南",
+      "kind": "span.s1@text##\\[|]",
+      "name": "span.s2@text"
+    },
+    "ruleToc": {
+      "chapterList": "dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "<js>\n//var ua = \"Mozilla/5.0 (Android 12; Mobile; rv:108.0) Gecko/108.0 Firefox/108.0\";\nvar ua = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0\";\nvar headers = {\n\t\"User-Agent\": ua,\n\t\"Referer\": source.bookSourceUrl\n\t};\nvar body = \"keyword=\"+key;\nvar path = \"modules/article/search.php,\";\nvar option = {\n\t\"method\": \"POST\",\n\t\"body\": String(body),\n\t\"headers\": headers\n\t};\njava.put(\"url\",String(source.bookSourceUrl+path+JSON.stringify(option)))\n</js>",
     "weight": 0
   },
   {
