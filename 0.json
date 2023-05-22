@@ -715,7 +715,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744854641,
+    "lastUpdateTime": 1684746119782,
     "respondTime": 35147,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -745,7 +745,7 @@
     },
     "ruleToc": {
       "chapterList": "#content_1@a",
-      "chapterName": "dd@text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterName": "dd@text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
       "chapterUrl": "href",
       "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")",
       "nextTocUrl": "select@option@value"
