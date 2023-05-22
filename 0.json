@@ -485,7 +485,7 @@
     "enabledCookieJar": true,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"/flei/xuanhuan/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"仙侠小说\",\"url\":\"/flei/xianxia/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市小说\",\"url\":\"/flei/dushi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"历史军事\",\"url\":\"/flei/lishi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"游戏竞技\",\"url\":\"/flei/youxi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻小说\",\"url\":\"/flei/kehuan/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"恐怖小说\",\"url\":\"/flei/kongbu/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"其他类型\",\"url\":\"/flei/qita/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1684743975857,
+    "lastUpdateTime": 1684744728552,
     "respondTime": 85854,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -523,7 +523,7 @@
       "chapterList": ".chaw_c@li@a",
       "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
       "chapterUrl": "href\n<js>\noption = {\n\t\"headers\": {\n\t\t\"referer\": String(book.origin).replace(/.$/,\"\")+result\n\t\t}\n\t};\nresult+\",\"+JSON.stringify(option)\n</js>",
-      "formatJs": "\"第\"+index+\"章 \"+title"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
     },
     "searchUrl": "search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\",\n\t\"webView\": true\n\t}",
     "weight": 0
@@ -628,7 +628,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683344980342,
+    "lastUpdateTime": 1684744824801,
     "respondTime": 1891,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -655,8 +655,9 @@
     },
     "ruleToc": {
       "chapterList": "dd@a",
-      "chapterName": "text",
-      "chapterUrl": "href"
+      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterUrl": "href",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
     },
     "searchUrl": "book/search.aspx?key={{key}}",
     "weight": 0
@@ -671,7 +672,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683885358013,
+    "lastUpdateTime": 1684744841884,
     "respondTime": 81182,
     "ruleBookInfo": {
       "author": "h1@span@text",
@@ -696,8 +697,9 @@
     },
     "ruleToc": {
       "chapterList": ".contlist li@el-tag",
-      "chapterName": "text",
+      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
       "chapterUrl": "onclick##.*[/](\\d+)[.].*##$1.html",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")",
       "nextTocUrl": "select@option@value"
     },
     "searchUrl": "https://ms6ge.35meigui.com/modules/article/gXJdPaOr1_RiSsV_ztqW6Nh.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all\",\n\t\"headers\": {\"Referer\": \"https://www.35meigui.com/\"}\n\t}",
@@ -713,7 +715,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683522733191,
+    "lastUpdateTime": 1684744854641,
     "respondTime": 35147,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -743,8 +745,9 @@
     },
     "ruleToc": {
       "chapterList": "#content_1@a",
-      "chapterName": "dd@text",
+      "chapterName": "dd@text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
       "chapterUrl": "href",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")",
       "nextTocUrl": "select@option@value"
     },
     "searchUrl": "search/?searchkey={{key}}",
@@ -760,7 +763,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683345020228,
+    "lastUpdateTime": 1684744863523,
     "respondTime": 3541,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -789,8 +792,9 @@
     },
     "ruleToc": {
       "chapterList": "#list-chapterAll@dd@a",
-      "chapterName": "text",
-      "chapterUrl": "href"
+      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterUrl": "href",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
     },
     "searchUrl": "modules/article/search1.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&action=login\"\n\t}",
     "weight": 0
@@ -803,7 +807,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683523042905,
+    "lastUpdateTime": 1684744870473,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "p.bq span a@text",
@@ -828,8 +832,9 @@
     },
     "ruleToc": {
       "chapterList": ".ml_list li a",
-      "chapterName": "text",
-      "chapterUrl": "href"
+      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterUrl": "href",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
     },
     "searchUrl": "search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\"\n\t}",
     "weight": 0
@@ -845,7 +850,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4080.0 Safari/537.36 Edg/82.0.453.0\"}",
-    "lastUpdateTime": 1684744136001,
+    "lastUpdateTime": 1684744884557,
     "respondTime": 95112,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -875,7 +880,7 @@
       "chapterList": "dd.col-md-3@a",
       "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+title"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
     },
     "searchUrl": "search,{\n\t\"method\": \"POST\",\n\t\"body\": \"keyword={{key}}\"\n\t}",
     "weight": 0
@@ -890,7 +895,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683345032038,
+    "lastUpdateTime": 1684744891358,
     "respondTime": 6690,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -917,8 +922,9 @@
     },
     "ruleToc": {
       "chapterList": "dd@a",
-      "chapterName": "text",
-      "chapterUrl": "href"
+      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterUrl": "href",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
     },
     "searchUrl": "http://m.gudengge.com/s.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"keyword={{key}}\"\n\t}",
     "weight": 0
@@ -932,7 +938,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744143855,
+    "lastUpdateTime": 1684744898685,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -962,7 +968,7 @@
       "chapterList": "dl > a",
       "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+title"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
     },
     "searchUrl": "search/?searchkey={{key}}",
     "weight": 0
@@ -1212,7 +1218,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684402784653,
+    "lastUpdateTime": 1684744919087,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "#author a@text",
@@ -1239,8 +1245,9 @@
     },
     "ruleToc": {
       "chapterList": "#readerlist@li@a",
-      "chapterName": "text",
-      "chapterUrl": "href"
+      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterUrl": "href",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
     },
     "searchUrl": "modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=articlename\"\n\t}",
     "weight": 0
@@ -1253,7 +1260,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684404493841,
+    "lastUpdateTime": 1684744927707,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "p.a@span@a@text",
@@ -1281,8 +1288,9 @@
     },
     "ruleToc": {
       "chapterList": ".shang@li@a",
-      "chapterName": "text",
+      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
       "chapterUrl": "href",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")",
       "nextTocUrl": "text.下页@href"
     },
     "searchUrl": "/index.php?do=wap_sea&so=yes&name={{key}}",
@@ -1296,7 +1304,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684744154093,
+    "lastUpdateTime": 1684744940594,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -1325,7 +1333,7 @@
       "chapterList": "#list-chapterAll@dd@a",
       "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+title"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
     },
     "searchUrl": "modules/article/search.php,{\n\t\"charset\": \"gb2312\",\n\t\"method\": \"POST\",\n\t\"body\": \"sosokey={{key}}&action=login&submit=\"\n\t}",
     "weight": 0
@@ -1339,7 +1347,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1683522960551,
+    "lastUpdateTime": 1684744958810,
     "respondTime": 3087,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -1365,8 +1373,9 @@
     },
     "ruleToc": {
       "chapterList": "dl@dd@a",
-      "chapterName": "text",
-      "chapterUrl": "href"
+      "chapterName": "text##^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*##🕊️",
+      "chapterUrl": "href",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/🕊️/g,\"\")"
     },
     "searchUrl": "modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&page={{page}},{\"charset\": \"gbk\"}",
     "weight": 0
