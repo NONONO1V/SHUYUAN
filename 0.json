@@ -1255,7 +1255,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684763089500,
+    "lastUpdateTime": 1684995149759,
     "respondTime": 3895,
     "ruleBookInfo": {
       "author": "p.a@span@a@text",
@@ -1275,11 +1275,11 @@
     "ruleExplore": {},
     "ruleReview": {},
     "ruleSearch": {
-      "author": "<js>java.ajax(String(java.getString(\"a@href\")).replace(/wap_/,''))</js>\np.a@span@a@text",
-      "bookList": "ul.txt1@li",
-      "bookUrl": "a@href##wap_",
-      "kind": "span.time@text##\\[|]",
-      "name": "span.tit@text"
+      "author": "author",
+      "bookList": "ul.txt1@li\n<js>\nlist = result.toArray();\nL = [];\nfor(i in list) {\n\tkind = String(list[i].select(\"span.time\").text()).replace(/\\[|]/g,\"\");\n\thref = list[i].select(\"a\").attr(\"href\");\n\tURL = String(href).replace(/wap_/,\"\");\n\thtml = String(java.ajax(URL));\n\tjava.setContent(html);\n\tname = java.getElement(\".path@a.-1\").text();\n\tauthor = java.getElement(\"p.a@span@a\").text();\n\tL.push({\n\t\tname: name,\n\t\tauthor: author,\n\t\tkind: kind,\n\t\tbookurl: URL\n\t\t});\n\t}\nL\n</js>",
+      "bookUrl": "bookurl",
+      "kind": "kind",
+      "name": "name"
     },
     "ruleToc": {
       "chapterList": ".shang@li@a",
@@ -1299,14 +1299,14 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684763105154,
+    "lastUpdateTime": 1684824299426,
     "respondTime": 4879,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",
       "intro": "p.bookintro@html",
       "kind": "[property~=status|category|update_time]@content",
-      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property$=update_time]@content##章节目录\\s",
+      "lastChapter": ".book > dd.0@a[title]@text&&[property$=update_time]@content",
       "name": "[property=\"og:novel:book_name\"]@content",
       "tocUrl": "[property=\"og:novel:read_url\"]@content"
     },
