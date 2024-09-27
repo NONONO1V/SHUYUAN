@@ -12,7 +12,7 @@
     "enabledExplore": true,
     "exploreUrl": "[{title:'🏆排行榜',url:'',style:{layout_flexGrow: 1,layout_flexBasisPercent:1}},{title:'人气榜•周',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=weekly&kind=sex\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'人气榜•月',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=monthly&kind=sex\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'人气榜•总',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=total&kind=sex\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'珍珠榜•周',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=weekly&kind=pearl\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'珍珠榜•月',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=monthly&kind=pearl\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'珍珠榜•总',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=total&kind=pearl\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'订购榜•周',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=weekly&kind=bestsale\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'订购榜•月',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=monthly&kind=bestsale\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'订购榜•总',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=total&kind=bestsale\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'收藏榜•周',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=weekly&kind=stocked\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'收藏榜•月',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=monthly&kind=stocked\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'收藏榜•总',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=total&kind=stocked\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'留言榜•周',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=weekly&kind=mostcomments\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'留言榜•月',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=monthly&kind=mostcomments\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'留言榜•总',url:'https://www.po18.tw/rank/more,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&type=total&kind=mostcomments\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},{title:'                         -------📜字数-------                        ',url:'',style:{layout_flexGrow: 1,layout_flexBasisPercent:1}},\n{title:'5萬以下',url:'https://www.po18.tw/findbooks/index,{ \"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=1&status=all&sort=time&new=all&tid=&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'5萬-10萬',url:'https://www.po18.tw/findbooks/index,{ \"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=2&status=all&sort=time&new=all&tid=&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'10萬-30萬',url:'https://www.po18.tw/findbooks/index,{ \"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=3&status=all&sort=time&new=all&tid=&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'30萬-50萬',url:'https://www.po18.tw/findbooks/index,{ \"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=4&status=all&sort=time&new=all&tid=&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'50萬-100萬',url:'https://www.po18.tw/findbooks/index,{ \"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=5&status=all&sort=time&new=all&tid=&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'100萬以上',url:'https://www.po18.tw/findbooks/index,{ \"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=6&status=all&sort=time&new=all&tid=&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限',url:'https://www.po18.tw/findbooks/index,{ \"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'我的收藏',url:'https://www.po18.tw/panel/stock_manage/stocks',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n\n{title:'                         -------✨标签-------                        ',url:'',style:{layout_flexGrow: 1,layout_flexBasisPercent:1}},\n{title:'H',url:'https://www.po18.tw/tags?id=32_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'高H',url:'https://www.po18.tw/tags?id=33_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'NP',url:'https://www.po18.tw/tags?id=37_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'SM',url:'https://www.po18.tw/tags?id=34_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'BG',url:'https://www.po18.tw/tags?id=51_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'BL',url:'https://www.po18.tw/tags?id=52_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'同人',url:'https://www.po18.tw/tags?id=63_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'古代',url:'https://www.po18.tw/tags?id=54_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'現代',url:'https://www.po18.tw/tags?id=55_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'校園',url:'https://www.po18.tw/tags?id=65_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'都會',url:'https://www.po18.tw/tags?id=56_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'奇幻',url:'https://www.po18.tw/tags?id=49_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'仙俠',url:'https://www.po18.tw/tags?id=48_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'末世',url:'https://www.po18.tw/tags?id=40_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'玄幻',url:'https://www.po18.tw/tags?id=53_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'科幻',url:'https://www.po18.tw/tags?id=57_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'年上',url:'https://www.po18.tw/tags?id=59_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'年下',url:'https://www.po18.tw/tags?id=60_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'網遊',url:'https://www.po18.tw/tags?id=64_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'人獸',url:'https://www.po18.tw/tags?id=41_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'狗血',url:'https://www.po18.tw/tags?id=46_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'系統',url:'https://www.po18.tw/tags?id=42_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'強強',url:'https://www.po18.tw/tags?id=47_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'肉文',url:'https://www.po18.tw/tags?id=38_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'爽文',url:'https://www.po18.tw/tags?id=1_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'虐心',url:'https://www.po18.tw/tags?id=2_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'悲劇',url:'https://www.po18.tw/tags?id=4_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'暗黑',url:'https://www.po18.tw/tags?id=7_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'甜文',url:'https://www.po18.tw/tags?id=3_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'喜劇',url:'https://www.po18.tw/tags?id=5_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'萌文',url:'https://www.po18.tw/tags?id=45_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'輕鬆',url:'https://www.po18.tw/tags?id=6_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'清水',url:'https://www.po18.tw/tags?id=8_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'快穿',url:'https://www.po18.tw/tags?id=28_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'穿越',url:'https://www.po18.tw/tags?id=9_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'重生',url:'https://www.po18.tw/tags?id=10_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'星際',url:'https://www.po18.tw/tags?id=50_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'冒險',url:'https://www.po18.tw/tags?id=13_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'耽美',url:'https://www.po18.tw/tags?id=22_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'百合',url:'https://www.po18.tw/tags?id=23_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'不限',url:'https://www.po18.tw/tags?id=26_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'療癒',url:'https://www.po18.tw/tags?id=27_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'二創',url:'https://www.po18.tw/tags?id=24_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'異國',url:'https://www.po18.tw/tags?id=12_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'1V1',url:'https://www.po18.tw/tags?id=35_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'NPH',url:'https://www.po18.tw/tags?id=36_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'簡體版',url:'https://www.po18.tw/tags?id=30_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'繁體版',url:'https://www.po18.tw/tags?id=31_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'同性愛',url:'https://www.po18.tw/tags?id=62_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'校園H',url:'https://www.po18.tw/tags?id=39_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'羅曼史',url:'https://www.po18.tw/tags?id=61_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'娛樂圈',url:'https://www.po18.tw/tags?id=43_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'金手指',url:'https://www.po18.tw/tags?id=44_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'女性向',url:'https://www.po18.tw/tags?id=14_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'男性向',url:'https://www.po18.tw/tags?id=15_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'輕小說',url:'https://www.po18.tw/tags?id=21_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'未來世界',url:'https://www.po18.tw/tags?id=58_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'青梅竹馬',url:'https://www.po18.tw/tags?id=29_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'心情抒發',url:'https://www.po18.tw/tags?id=25_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n{title:'靈異神怪',url:'https://www.po18.tw/tags?id=11_&page={{page}}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.2}},\n\n\n\n\n\n{title:'                         -------🏷标签-------                        ',url:'',style:{layout_flexGrow: 1,layout_flexBasisPercent:1}},\n{title:'不限·簡體',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=30&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·簡體',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=30&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·簡體',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=30&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·繁體',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=31&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·繁體',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=31&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·繁體',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=31&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·高H',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=33&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·高H',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=33&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·高H',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=33&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·1V1',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=35&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·1V1',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=35&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·1V1',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=35&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·H',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=32&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·H',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=32&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·H',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=32&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·NPH',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=36&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·NPH',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=36&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·NPH',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=36&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·NP',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=37&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·NP',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=37&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·NP',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=37&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·SM',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=34&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·SM',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=34&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·SM',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=34&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·BG',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=51&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·BG',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=51&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·BG',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=51&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·BL',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=52&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·BL',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=52&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·BL',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=52&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·同人',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=63&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·同人',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=63&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·同人',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=63&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·同性',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=62&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·同性',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=62&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·同性',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=62&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·古代',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=54&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·古代',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=54&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·古代',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=54&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·現代',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=55&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·現代',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=55&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·現代',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=55&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·校園H',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=39&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·校園H',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=39&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·校園H',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=39&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·校園',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=65&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·校園',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=65&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·校園',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=65&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·都會',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=56&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·都會',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=56&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·都會',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=56&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·奇幻',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=49&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·奇幻',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=49&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·奇幻',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=49&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·仙俠',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=48&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·仙俠',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=48&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·仙俠',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=48&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·末世',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=40&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·末世',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=40&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·末世',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=40&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·玄幻',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=53&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·玄幻',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=53&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·玄幻',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=53&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·科幻',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=57&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·科幻',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=57&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·科幻',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=57&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·年上',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=59&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·年上',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=59&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·年上',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=59&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·年下',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=60&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·年下',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=60&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·年下',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=60&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·羅曼史',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=61&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·羅曼史',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=61&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·羅曼史',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=61&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·網遊',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=64&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·網遊',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=64&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·網遊',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=64&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·人獸',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=41&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·人獸',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=41&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·人獸',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=41&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·娛樂圈',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=43&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·娛樂圈',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=43&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·娛樂圈',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=43&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·狗血',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=46&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·狗血',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=46&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·狗血',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=46&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·系統',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=42&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·系統',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=42&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·系統',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=42&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·強強',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=47&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·強強',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=47&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·強強',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=47&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·肉文',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=38&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·肉文',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=38&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·肉文',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=38&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·爽文',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=1&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·爽文',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=1&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·爽文',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=1&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·虐心',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=2&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·虐心',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=2&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·虐心',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=2&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·悲劇',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=4&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·悲劇',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=4&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·悲劇',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=4&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·暗黑',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=7&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·暗黑',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=7&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·暗黑',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=7&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·甜文',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=3&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·甜文',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=3&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·甜文',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=3&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·喜劇',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=5&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·喜劇',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=5&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·喜劇',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=5&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·萌文',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=45&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·萌文',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=45&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·萌文',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=45&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·輕鬆',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=6&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·輕鬆',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=6&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·輕鬆',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=6&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·清水',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=8&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·清水',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=8&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·清水',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=8&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·快穿',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=28&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·快穿',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=28&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·快穿',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=28&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·穿越',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=9&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·穿越',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=9&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·穿越',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=9&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·重生',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=10&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·重生',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=10&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·重生',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=10&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·星際',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=50&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·星際',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=50&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·星際',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=50&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·冒險',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=13&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·冒險',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=13&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·冒險',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=13&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·金手指',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=44&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·金手指',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=44&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·金手指',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=44&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·女性向',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=14&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·女性向',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=14&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·女性向',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=14&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·男性向',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=15&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·男性向',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=15&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·男性向',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=15&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·輕小說',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=21&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·輕小說',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=21&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·輕小說',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=21&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·耽美',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=22&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·耽美',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=22&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·耽美',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=22&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·百合',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=23&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·百合',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=23&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·百合',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=23&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·不限',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=26&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·不限',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=26&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·不限',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=26&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·療癒',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=27&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·療癒',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=27&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·療癒',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=27&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·二創',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=24&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·二創',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=24&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·二創',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=24&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·異國',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=12&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'連載·異國',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=12&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'完結·異國',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=12&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.25}},\n{title:'不限·青梅竹馬',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=29&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.4}},\n{title:'連載·青梅竹馬',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=29&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.4}},\n{title:'完結·青梅竹馬',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=29&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:1}},\n{title:'不限·心情抒發',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=25&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.4}},\n{title:'連載·心情抒發',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=25&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.4}},\n{title:'完結·心情抒發',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=25&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:1}},\n{title:'不限·靈異神怪',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=11&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.4}},\n{title:'連載·靈異神怪',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=11&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.4}},\n{title:'完結·靈異神怪',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=11&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:1}},{title:'不限·未來世界',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=all&sort=time&new=all&tid=58&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.4}},\n{title:'連載·未來世界',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=1&sort=time&new=all&tid=58&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:0.4}},\n{title:'完結·未來世界',url:'https://www.po18.tw/findbooks/index,{\"method\":\"POST\",\"body\":\"_po18rf-tk001={{encodeURIComponent(java.ajax(\"https://www.po18.tw/findbooks/index\").match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1])}}&tag=all&words=all&status=2&sort=time&new=all&tid=58&page={{page}}\"}',style:{layout_flexGrow: 1,layout_flexBasisPercent:1}}]",
     "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
-    "lastUpdateTime": 1687312161943,
+    "lastUpdateTime": 1714304161480,
     "loginUrl": "https://members.po18.tw/apps/login.php?u=https://www.po18.tw/",
     "respondTime": 195496,
     "ruleBookInfo": {
@@ -40,7 +40,6 @@
       "name": "class.l_bookname@text||class.book_name@text||tag.td.2@text||class.r2@text",
       "wordCount": "class.voting@html\n@js:\nmatchList = result.match(/class=\"star lighton\"/g);\nstars = '';\nif (matchList) {\n\tstars = '★'.repeat(matchList.length);\n\t}\nstars;"
     },
-    "ruleReview": {},
     "ruleSearch": {
       "author": ".book_author a@text",
       "bookList": ".book",
@@ -53,10 +52,10 @@
       "chapterList": "#w0.list-view@.c_l",
       "chapterName": ".l_chaptname@text",
       "chapterUrl": "a.btn_L_blue@href||a.btn_L_red@name\n<js>\nurl = result.replace(/articles/,'articlescontent');\nheader = {\n\t\"X-Requested-With\": \"XMLHttpRequest\",\n\t\"Referer\": \"https://www.po18.tw\"+result,\n\t\"Accept\": \"text/html, */*; q=0.01\",\n\t\"Accept-Language\": \"zh-CN,zh;q=0.9,zh-TW;q=0.8\"\n\t};\nheaders = {\"headers\":JSON.stringify(header)};\nresult = url+','+JSON.stringify(headers)\n</js>",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+(?![\\u4e00-\\u9fa5])[.]?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")",
       "isVip": "a.btn_L_red@text",
       "nextTocUrl": "a.num@href\n<js>\nnextTocurl = result;\nlastpage = parseInt(java.getString(\"a.num.-1@href\").split(\"page=\")[1]);\nnextTocurl = lastpage <= 10 ? nextTocurl : java.getString(\"a.num.-2@href\");\n</js>",
-      "updateTime": "{{@@.l_date@text##公開\\s}}　{{@@.l_font@text##\\s}}　{{@@a.btn_L_blue@text}}{{@@a.btn_L_red@text##(\\d+)\\s(.*)##$1🪙$2}}"
+      "updateTime": "{{@@.l_date@text##公開\\s}}　{{@@.l_font@text##\\s}}　{{@@a.btn_L_red@text##(\\d+)\\s(.*)##$1🪙$2}}"
     },
     "searchUrl": "@js:\nurl = \"https://www.po18.tw/search/index,\";\nvalue = java.ajax('https://www.po18.tw').match(/name=\"_po18rf-tk001\" value=\"([^\"]+)\"/)[1];\nbody = \"_po18rf-tk001=\"+value+\"&name={{key}}&searchtype=all\";\npost = {\n\t\"method\": \"POST\",\n\t\"body\": String(body)\n\t};\nurl+JSON.stringify(post)",
     "weight": 0
@@ -71,8 +70,8 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
-    "exploreUrl": "[{\"title\":\"我的书柜\",\"url\":\"/?act=managemybookcase\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"签到\",\"url\":\"/signinset.php\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
-    "lastUpdateTime": 1688643324880,
+    "exploreUrl": "[{\"title\":\"我的书柜\",\"url\":\"?act=managemybookcase\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"签到\",\"url\":\"signinset.php\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+    "lastUpdateTime": 1690337686326,
     "loginUrl": "login.php",
     "respondTime": 180000,
     "ruleBookInfo": {
@@ -94,7 +93,6 @@
       "lastChapter": "a.2@text",
       "name": "a.1@text"
     },
-    "ruleReview": {},
     "ruleSearch": {
       "author": "a.2@font@text",
       "bookList": "#mypages@tr!0@td",
@@ -112,7 +110,7 @@
       "isVolume": "span@uk-icon\n<js>\nresult==\"folder\"?true:false\n</js>",
       "updateTime": "ownText##^\\s*(\\S*)\\s*(\\d+字)\\s*(\\S*)\\s*(\\S*)\\s*$##$1　$2　$3###"
     },
-    "searchUrl": "/?act=searchlist&searchmode=book&selbooktype=all&searchkeyword={{key}}&selbooktypeb=all&selsexytype=all&selages=all&selstylesa=all&selstylesb=all&selbookpoststats=all&searchkpage={{page}}&fixlangsnd=FsedAjjT6&fixlangact=edit",
+    "searchUrl": "?act=searchlist&searchmode=book&selbooktype=all&searchkeyword={{key}}&selbooktypeb=all&selsexytype=all&selages=all&selstylesa=all&selstylesb=all&selbookpoststats=all&searchkpage={{page}}&fixlangsnd=FsedAjjT6&fixlangact=edit",
     "weight": 0
   },
   {
@@ -126,7 +124,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1682345974800,
+    "lastUpdateTime": 1703936266323,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": ".byline@a@text",
@@ -141,7 +139,6 @@
       "content": "@js:\nvar jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\"h3.landmark.heading\").remove()\njsoup.select(\"#chapters\").html()"
     },
     "ruleExplore": {},
-    "ruleReview": {},
     "ruleSearch": {
       "author": "h4@a.1@text",
       "bookList": "li.work",
@@ -156,7 +153,7 @@
       "chapterName": "h2.title.heading@text||text",
       "chapterUrl": "value\n@js:\nif(baseUrl.match(/\\d+/)) {\n\tUrl=baseUrl.match(/(.*?\\d+)/)[1];\n\tresult=Url+\"/chapters/\"+result\n\t} else {\n\tresult=baseUrl\n\t}"
     },
-    "searchUrl": "/works/search?page={{page}}&work_search%5Bquery%5D={{key}}",
+    "searchUrl": "works/search?page={{page}}&work_search%5Bquery%5D={{key}}",
     "weight": 0
   },
   {
@@ -195,7 +192,6 @@
       "kind": "tag.th@tag.a.3@text##\\[|\\]",
       "name": "tag.th@tag.a.2@text||tag.a.-1@text"
     },
-    "ruleReview": {},
     "ruleSearch": {
       "author": "tag.span.1@text",
       "bookList": "class.pbw",
@@ -224,7 +220,7 @@
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"编推金麦穗\",\"url\":\"/books?withTag=1835&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"收藏\",\"url\":\"/collection\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"签到\",\"url\":\"https://sosadfun.link/qiandao\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1684656928431,
+    "lastUpdateTime": 1703936277285,
     "loginUrl": "https://sosadfun.link/",
     "respondTime": 180000,
     "ruleBookInfo": {
@@ -250,7 +246,6 @@
       "name": "a.bigger-5@text",
       "wordCount": "span.pull-right.smaller-30@em@ownText##/.*"
     },
-    "ruleReview": {},
     "ruleSearch": {
       "author": "span.pull-right@text",
       "bookList": ".brief-2@div.row",
@@ -265,7 +260,7 @@
       "chapterUrl": "th.0@a@href",
       "updateTime": "{{@@th.7@text||@@th.6@text}}{{@@th.2@text##(\\d+)##　$1字　}}{{@@th.1@a@text##(?![A-Za-z0-9]+)\\s(?![A-Za-z0-9]+)}}"
     },
-    "searchUrl": "/search_thread?search={{key}}&page={{page}}",
+    "searchUrl": "search_thread?search={{key}}&page={{page}}",
     "weight": 0
   },
   {
@@ -279,7 +274,7 @@
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"全部\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最新更新\",\"url\":\"/list-01/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新上架\",\"url\":\"/list-02/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最高评分\",\"url\":\"/list-03/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多观看\",\"url\":\"/list-04/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多文章\",\"url\":\"/list-05/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多讨论\",\"url\":\"/list-06/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多收藏\",\"url\":\"/list-07/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多字数\",\"url\":\"/list-08/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"原創\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最新更新\",\"url\":\"/list-21/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新上架\",\"url\":\"/list-22/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最高评分\",\"url\":\"/list-23/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多观看\",\"url\":\"/list-24/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多文章\",\"url\":\"/list-25/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多讨论\",\"url\":\"/list-26/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多收藏\",\"url\":\"/list-27/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多字数\",\"url\":\"/list-28/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"日輕\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最新更新\",\"url\":\"/list-11/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新上架\",\"url\":\"/list-12/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最高评分\",\"url\":\"/list-13/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多观看\",\"url\":\"/list-14/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多文章\",\"url\":\"/list-15/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多讨论\",\"url\":\"/list-16/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多收藏\",\"url\":\"/list-17/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多字数\",\"url\":\"/list-18/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"韓輕\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最新更新\",\"url\":\"/list-31/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新上架\",\"url\":\"/list-32/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最高评分\",\"url\":\"/list-3/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多观看\",\"url\":\"/list-34/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多文章\",\"url\":\"/list-35/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多讨论\",\"url\":\"/list-36/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多收藏\",\"url\":\"/list-37/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多字数\",\"url\":\"/list-38/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1686566059322,
+    "lastUpdateTime": 1703936284745,
     "loginUrl": "my/profile.html",
     "respondTime": 17459,
     "ruleBookInfo": {
@@ -296,7 +291,6 @@
       "content": ".forum-content@html"
     },
     "ruleExplore": {},
-    "ruleReview": {},
     "ruleSearch": {
       "author": ".card-author@a@text",
       "bookList": ".col-lg-3",
@@ -314,50 +308,7 @@
       "chapterUrl": "href",
       "isVolume": "p.non@text||summary@text"
     },
-    "searchUrl": "/tags-01/{{key}}/{{page}}.html",
-    "weight": 0
-  },
-  {
-    "bookSourceName": "一品侠",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.yipingxia.com/",
-    "customOrder": -94,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": false,
-    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
-    "lastUpdateTime": 1684763364650,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "author": ".tab@p.p1@text##作者：",
-      "canReName": "1",
-      "coverUrl": ".tu@img@src",
-      "intro": ".jj@p.p2@html",
-      "kind": ".tab1@p!-1@text&&.info_chapters@p.p1.0@text##.*更新：|\\s\\)",
-      "lastChapter": ".tab@p.p3@a@text&&.info_chapters@p.p1.0@text##.*更新：|\\s\\)",
-      "name": ".catalog@h1@text"
-    },
-    "ruleContent": {
-      "content": "#novelcontent.novelcontent@html",
-      "nextContentUrl": "li@a.p4@href"
-    },
-    "ruleExplore": {},
-    "ruleReview": {},
-    "ruleSearch": {
-      "author": "a.2@text",
-      "bookList": "p.search_list",
-      "bookUrl": "a.0@href",
-      "kind": "a.1@text",
-      "name": "a.0@text"
-    },
-    "ruleToc": {
-      "chapterList": "ul.p2.1@li@a",
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")",
-      "nextTocUrl": "select@option@value"
-    },
-    "searchUrl": "search.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&type=articlename\"\n\t}",
+    "searchUrl": "tags-01/{{key}}/{{page}}.html",
     "weight": 0
   },
   {
@@ -366,12 +317,12 @@
     "bookSourceName": "小说狂人",
     "bookSourceType": 0,
     "bookSourceUrl": "https://czbooks.net/",
-    "customOrder": -93,
+    "customOrder": -94,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/c/xuanhuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"言情\",\"url\":\"/c/yanqing/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"武俠仙俠\",\"url\":\"/c/xianxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"軍事歷史\",\"url\":\"/c/lishi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"科幻未來\",\"url\":\"/c/wangyou/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"靈異玄幻\",\"url\":\"/c/lingyi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"女生同人\",\"url\":\"/c/tongren/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"原創同人\",\"url\":\"/c/erciyuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"耽美\",\"url\":\"/c/danmei/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"百合\",\"url\":\"/c/baihe/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"日系\",\"url\":\"/c/japan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"奇幻冒險\",\"url\":\"/c/fanatsy/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"情色工口\",\"url\":\"/c/herotic/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"耽美工口\",\"url\":\"/c/blerotic/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"經典文學\",\"url\":\"/c/classicbook/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"推理\",\"url\":\"/c/suspense/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"女性向\",\"url\":\"/c/girl/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短篇\",\"url\":\"/c/short/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1684763383430,
+    "lastUpdateTime": 1703936244924,
     "respondTime": 81186,
     "ruleBookInfo": {
       "author": ".author@a@text",
@@ -386,7 +337,6 @@
       "content": ".content@html"
     },
     "ruleExplore": {},
-    "ruleReview": {},
     "ruleSearch": {
       "author": ".novel-item-author@a@text",
       "bookList": ".novel-item",
@@ -398,9 +348,9 @@
       "chapterList": ".chapter-list@a",
       "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+(?![\\u4e00-\\u9fa5])[.]?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
     },
-    "searchUrl": "/s/{{key}}/{{page}}",
+    "searchUrl": "s/{{key}}/{{page}}",
     "weight": 0
   },
   {
@@ -410,11 +360,11 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://wap.po18.club/",
     "bookUrlPattern": "\\S+wap.po18.club.book.\\d+.html",
-    "customOrder": -92,
+    "customOrder": -93,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1687268663445,
+    "lastUpdateTime": 1703936237964,
     "respondTime": 80621,
     "ruleBookInfo": {
       "author": ".xq_bookne div.1@text##作者：",
@@ -430,7 +380,6 @@
       "content": "#YiJianZhan@html"
     },
     "ruleExplore": {},
-    "ruleReview": {},
     "ruleSearch": {
       "author": "dd.book_other@ownText",
       "bookList": "dl",
@@ -444,7 +393,7 @@
       "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*|️「Р.*」|\\s[(].*p|.*m[)]/g,\"\")",
       "nextTocUrl": "select@option!0@value\n<js>\nresult.length >= 9 && java.getString(\"a.pg-next@href\") || result;\n</js>"
     },
-    "searchUrl": "/modules/article/search.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all\"\n\t}",
+    "searchUrl": "modules/article/search.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all\"\n\t}",
     "weight": 0
   },
   {
@@ -452,40 +401,39 @@
     "bookSourceName": "橘色书院",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.ya49.com/",
-    "customOrder": -91,
+    "customOrder": -92,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684763456055,
+    "lastUpdateTime": 1713522498472,
     "respondTime": 1974,
     "ruleBookInfo": {
-      "author": "#info@p.0@text",
+      "author": "[property=\"og:novel:author\"]@content",
       "canReName": "1",
       "coverUrl": "img@src",
-      "intro": "#intro@p@text##(^|[\\s]+)##<br>",
-      "kind": ".con_top@a.1@text&&#info@p.2@text##最后更新：",
-      "lastChapter": "dd.0@a@text&&#info@p.2@text##最后更新：",
-      "name": "#maininfo@h1@text"
+      "intro": "h3.bookinfo_intro@html",
+      "kind": "[property~=status|category]@content&&span.item.1@text",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&span.item.1@text",
+      "name": "[property=\"og:novel:book_name\"]@content"
     },
     "ruleContent": {
-      "content": "#content@html"
+      "content": ".contentbox@html"
     },
     "ruleExplore": {},
-    "ruleReview": {},
     "ruleSearch": {
-      "author": "td.2@text",
-      "bookList": "tr!0",
-      "bookUrl": ".odd@a@href",
-      "kind": "td.odd[align]@text&&td.even[align]@text",
-      "name": ".odd@a@text"
+      "author": "p.s3@text",
+      "bookList": "li",
+      "bookUrl": "p.s1@a@href",
+      "kind": "p.s5@text&&p.s6@text",
+      "name": "p.s1@text"
     },
     "ruleToc": {
-      "chapterList": "dd@a",
+      "chapterList": "li@a",
       "chapterName": "text",
-      "chapterUrl": "href\n<js>\nString(book.origin).replace(/.$/,\"\")+result\n</js>",
+      "chapterUrl": "href",
       "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*|️「Р.*」|\\s[(].*p|.*m[)]/g,\"\")"
     },
-    "searchUrl": "/modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=articlename<,&page={{page}}>\"\n\t}",
+    "searchUrl": "modules/article/search.php?action=login&searchkey={{key}}<,&page={{page}}>,{\"charset\"=\"gbk\"}",
     "weight": 0
   },
   {
@@ -493,12 +441,12 @@
     "bookSourceName": "文学五一",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.wx51.vip/",
-    "customOrder": -90,
+    "customOrder": -91,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"排行\",\"url\":\"/allvisit-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"玄幻\",\"url\":\"/sort/1-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"武侠\",\"url\":\"/sort/2-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"言情\",\"url\":\"/sort/3-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"穿越\",\"url\":\"/sort/4-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市\",\"url\":\"/sort/5-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻\",\"url\":\"/sort/6-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"网游\",\"url\":\"/sort/7-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"恐怖\",\"url\":\"/sort/8-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"耽美\",\"url\":\"/sort/9-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1684763481352,
+    "lastUpdateTime": 1703936116486,
     "respondTime": 5322,
     "ruleBookInfo": {
       "author": ".divbox > div > div.0@text##作者：|\\s*类别：.*",
@@ -521,7 +469,6 @@
       "lastChapter": "p.1@a@text",
       "name": "a.aname@text##_.?御.屋"
     },
-    "ruleReview": {},
     "ruleSearch": {
       "author": "td.2@text",
       "bookList": "tr!0",
@@ -533,9 +480,9 @@
       "chapterList": ".ccss@a",
       "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+(?![\\u4e00-\\u9fa5])[.]?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
     },
-    "searchUrl": "/modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchtype=articlename&searchkey={{key}}<,&page={{page}}>\"\n\t}",
+    "searchUrl": "modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchtype=articlename&searchkey={{key}}<,&page={{page}}>\"\n\t}",
     "weight": 0
   },
   {
@@ -543,11 +490,11 @@
     "bookSourceName": "海棠小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.285b.com/",
-    "customOrder": -89,
+    "customOrder": -90,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684763496512,
+    "lastUpdateTime": 1703936101076,
     "respondTime": 3404,
     "ruleBookInfo": {
       "author": "span@a@text",
@@ -564,7 +511,6 @@
       "content": ".acontent@html"
     },
     "ruleExplore": {},
-    "ruleReview": {},
     "ruleSearch": {
       "author": ".c_tag:nth-of-type(2)@span:nth-of-type(2)@text",
       "bookList": ".c_row",
@@ -579,50 +525,10 @@
       "chapterList": "dd@a",
       "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+(?![\\u4e00-\\u9fa5])[.]?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")",
       "updateTime": "title"
     },
-    "searchUrl": "/modules/article/search.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchtype=all&searchkey={{key}}\"\n\t}",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "",
-    "bookSourceName": "笔下文库",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.bixiawenku.com/",
-    "customOrder": -88,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": false,
-    "lastUpdateTime": 1684763516164,
-    "respondTime": 13323,
-    "ruleBookInfo": {
-      "author": ".book-describe@p.0@text",
-      "canReName": "1",
-      "coverUrl": "img@src",
-      "intro": ".describe-html@p@text##(^|[\\s]+)##<br>",
-      "kind": ".book-describe@p.1:3@text##类型：|最近更新：",
-      "lastChapter": ".book-describe@p.4@a@text&&.book-describe@p.3@text##最近更新：",
-      "name": ".book-describe@h1@text"
-    },
-    "ruleContent": {
-      "content": "#nr1@html"
-    },
-    "ruleExplore": {},
-    "ruleReview": {},
-    "ruleSearch": {
-      "author": "<js>\nurl = java.getString(\"a@href\");\njava.ajax(url)\n</js>\n.book-describe@p.0@text",
-      "bookList": ".search-list@li",
-      "bookUrl": "a@href",
-      "name": "a@text"
-    },
-    "ruleToc": {
-      "chapterList": ".book-list@li@a",
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
-    },
-    "searchUrl": "/modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}<,&page={{page}}>\"\n\t}",
+    "searchUrl": "modules/article/search.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchtype=all&searchkey={{key}}\"\n\t}",
     "weight": 0
   },
   {
@@ -630,11 +536,11 @@
     "bookSourceName": "海棠书屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xs505.com/",
-    "customOrder": -87,
+    "customOrder": -89,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684763535806,
+    "lastUpdateTime": 1703936080253,
     "respondTime": 1658,
     "ruleBookInfo": {
       "author": "span.red@text",
@@ -649,7 +555,6 @@
       "content": ".contentbox@html"
     },
     "ruleExplore": {},
-    "ruleReview": {},
     "ruleSearch": {
       "author": "p.s3@text",
       "bookList": "li",
@@ -661,9 +566,9 @@
       "chapterList": "li@a",
       "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+(?![\\u4e00-\\u9fa5])[.]?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
     },
-    "searchUrl": "/modules/article/search.php?action=login&searchkey={{key}}&page={{page}},{\"charset\": \"gbk\"}",
+    "searchUrl": "modules/article/search.php?action=login&searchkey={{key}}&page={{page}},{\"charset\": \"gbk\"}",
     "weight": 0
   },
   {
@@ -672,11 +577,11 @@
     "bookSourceName": "御书屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.yushuwuu.vip/",
-    "customOrder": -86,
+    "customOrder": -88,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684763554018,
+    "lastUpdateTime": 1703936043139,
     "respondTime": 11964,
     "ruleBookInfo": {
       "author": "td.article_info_td@div@h2@text",
@@ -693,7 +598,6 @@
       "replaceRegex": "##\\&{4}"
     },
     "ruleExplore": {},
-    "ruleReview": {},
     "ruleSearch": {
       "author": "strong@text",
       "bookList": ".common-bookele",
@@ -705,9 +609,9 @@
       "chapterList": "div@ul@li!-1@a",
       "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+(?![\\u4e00-\\u9fa5])[.]?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
     },
-    "searchUrl": "/s.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"s={{key}}&type=articlename\"\n\t}",
+    "searchUrl": "s.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"s={{key}}&type=articlename\"\n\t}",
     "weight": 0
   },
   {
@@ -715,11 +619,11 @@
     "bookSourceName": "肉肉屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.rourouwu.de/",
-    "customOrder": -85,
+    "customOrder": -87,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684763576735,
+    "lastUpdateTime": 1703936056086,
     "respondTime": 5995,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -736,7 +640,6 @@
       "replaceRegex": "##\\s*[-]\\s肉肉屋"
     },
     "ruleExplore": {},
-    "ruleReview": {},
     "ruleSearch": {
       "author": "td.2@text",
       "bookList": "tr!0",
@@ -748,20 +651,20 @@
       "chapterList": "ul@li@a",
       "chapterName": "text##{{book.name}}",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+(?![\\u4e00-\\u9fa5])[.]?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
     },
-    "searchUrl": "/modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchtype=articlename&searchkey={{key}}\"\n\t}",
+    "searchUrl": "modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchtype=articlename&searchkey={{key}}\"\n\t}",
     "weight": 0
   },
   {
     "bookSourceName": "新AK小说",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://m.novelwuxia.com/",
-    "customOrder": -84,
+    "bookSourceUrl": "https://m.akxsx.com/",
+    "customOrder": -86,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1684763589608,
+    "lastUpdateTime": 1706200847950,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -769,15 +672,15 @@
       "coverUrl": "[property=\"og:image\"]@content",
       "intro": "[property=\"og:description\"]@content",
       "kind": "[property~=status|category|update_time]@content",
-      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property$=update_time]@content",
       "name": "[property=\"og:novel:book_name\"]@content",
       "tocUrl": "text.章节目录@href"
     },
     "ruleContent": {
-      "content": "#booktxt@p@html"
+      "content": "#booktxt@p@html",
+      "nextContentUrl": "a#next_url@href"
     },
     "ruleExplore": {},
-    "ruleReview": {},
     "ruleSearch": {
       "author": "dd@a@text",
       "bookList": "dl",
@@ -790,23 +693,23 @@
       "chapterList": "ul.mt0@li@a",
       "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+(?![\\u4e00-\\u9fa5])[.]?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")",
       "nextTocUrl": "select@option@value"
     },
-    "searchUrl": "/search/?searchkey={{key}}",
+    "searchUrl": "search/?searchkey={{key}}",
     "weight": 0
   },
   {
     "bookSourceComment": "搜索间隔30秒",
     "bookSourceName": "新御宅屋",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://www.kuaienyz.com/",
-    "customOrder": -83,
+    "bookSourceUrl": "https://www.yuzhaiwu.xyz/",
+    "customOrder": -85,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"都市\",\"url\":\"/sort/1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"浓情\",\"url\":\"/sort/2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"言情\",\"url\":\"/sort/3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"校园\",\"url\":\"/sort/4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"武侠\",\"url\":\"/sort/5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"穿越\",\"url\":\"/sort/6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"重生\",\"url\":\"/sort/7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"其他\",\"url\":\"/sort/8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1684763599774,
+    "lastUpdateTime": 1713522662423,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -814,8 +717,8 @@
       "coverUrl": "img@src",
       "intro": ".intro@html",
       "kind": "[property~=status|category|update_time]@content",
-      "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
-      "name": "[property=\"og:novel:book_name\"]@content",
+      "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content&&[property$=update_time]@content",
+      "name": "[property=\"og:novel:book_name\"]@content##《|》",
       "wordCount": "p@span.1@text##\\s"
     },
     "ruleContent": {
@@ -832,22 +735,62 @@
       "name": "h2@text",
       "wordCount": "em.orange@text"
     },
-    "ruleReview": {},
     "ruleSearch": {
       "author": "p.0@ownText||span.hot@text",
       "bookList": "li.searchresult",
       "bookUrl": "a.0@href",
       "coverUrl": "img@data-original",
       "intro": "p.searchresult_p@text",
-      "name": "h3@text"
+      "name": "h3@text##《|》"
     },
     "ruleToc": {
       "chapterList": "#ul_all_chapters@li@a",
       "chapterName": "text",
       "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+(?![\\u4e00-\\u9fa5])[.]?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
     },
-    "searchUrl": "/search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all\"\n\t}",
+    "searchUrl": "search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all\"\n\t}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "搜索不会写，去网站搜索复制链接",
+    "bookSourceName": "飞言情",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.feiyanqing999.com/",
+    "bookUrlPattern": "\\S+www.feiyanqing999.com.book.\\d+.",
+    "customOrder": -84,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1706201494723,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property~=status|category|update_time]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property$=update_time]@content",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "<js>\nvar jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\"h1\").remove()\njsoup.select(\".showtxt\").html()\n</js>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".author@text",
+      "bookList": ".bookinfo",
+      "bookUrl": ".bookname a@href",
+      "coverUrl": "a img@src",
+      "intro": ".bookinfo p@text",
+      "kind": ".cat@text",
+      "name": ".bookname a@text"
+    },
+    "ruleToc": {
+      "chapterList": "dd a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+(?![\\u4e00-\\u9fa5])[.]?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")"
+    },
     "weight": 0
   }
 ]
