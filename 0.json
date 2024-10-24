@@ -283,49 +283,10 @@
     "weight": 0
   },
   {
-    "bookSourceName": "爱看小说",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://m.zw30.net/",
-    "customOrder": -94,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": false,
-    "lastUpdateTime": 1723557077351,
-    "respondTime": 4439,
-    "ruleBookInfo": {
-      "author": "[property=\"og:novel:author\"]@content",
-      "canReName": "1",
-      "coverUrl": "[property=\"og:image\"]@content",
-      "intro": "[property=\"og:description\"]@content@js:\"\\t\"+result",
-      "kind": "[property~=category|status|update_time]@content",
-      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
-      "name": "[property=\"og:novel:book_name\"]@content##\\s?完结\\+番外",
-      "tocUrl": "[property=\"og:novel:read_url\"]@content##https://m(.*)##https://www$1###"
-    },
-    "ruleContent": {
-      "content": ".yd_text2@html"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "p.p3@a@text",
-      "bookList": ".content_link",
-      "bookUrl": "p.p2@a.blue@href",
-      "name": "p.p2@a.blue@text##\\s?完结\\+番外"
-    },
-    "ruleToc": {
-      "chapterList": ".mulu li a",
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
-    },
-    "searchUrl": "s.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"s={{key}}&type=articlename\"\n\t}",
-    "weight": 0
-  },
-  {
     "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.biquge345.com/",
-    "customOrder": -93,
+    "customOrder": -94,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -365,7 +326,7 @@
     "bookSourceName": "笑佳人",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.xiaojiaren.com/",
-    "customOrder": -92,
+    "customOrder": -93,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -408,22 +369,22 @@
     "bookSourceName": "霹雳书坊",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.pilibook.net/",
-    "customOrder": -91,
+    "customOrder": -92,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"男频网文\",\"url\":\"/1/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"女频言情\",\"url\":\"/2/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"电子图书\",\"url\":\"/3/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"无CP小说\",\"url\":\"/4/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"纯爱小说\",\"url\":\"/5/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"百合小说\",\"url\":\"/6/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"轻小说\",\"url\":\"/8/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1729745559400,
+    "lastUpdateTime": 1729759251590,
     "respondTime": 3622,
     "ruleBookInfo": {
-      "author": "h2@ownText##（作者：(.*)）##$1###",
+      "author": "a.works-author-name@text",
       "canReName": "1",
       "coverUrl": ".works-cover img@src",
       "intro": "p.works-intro-short@html",
-      "kind": "a.works-intro-tags-item@text&&span.ui-pl10@text",
-      "lastChapter": "span.works-chapter-item.0@text&&span.ui-pl10@text",
+      "kind": "a.works-intro-tags-item@text&&label.works-intro-status@text&&span.ui-pl10@text",
+      "lastChapter": "a.works-ft-new@text&&span.ui-pl10@text",
       "name": ".works-intro-title strong@text",
-      "tocUrl": "a.works-intro-view@href"
+      "tocUrl": ".words-xone-menu a@href"
     },
     "ruleContent": {
       "content": ".read-content p@html"
@@ -447,7 +408,7 @@
       "name": "p.x-book__info--name@text"
     },
     "ruleToc": {
-      "chapterList": ".volume-list li a",
+      "chapterList": "p@a",
       "chapterName": "text",
       "chapterUrl": "href",
       "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
@@ -460,7 +421,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.69hsw.com/",
     "bookUrlPattern": "\\S+www.69haoshu.com.\\d+.",
-    "customOrder": -90,
+    "customOrder": -91,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -500,7 +461,7 @@
     "bookSourceName": "淡水书院",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.udikids.com/",
-    "customOrder": -89,
+    "customOrder": -90,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
