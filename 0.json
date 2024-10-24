@@ -243,54 +243,10 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "注意搜索地址变化\n不能频繁搜索",
-    "bookSourceGroup": "",
-    "bookSourceName": "116文学",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.35meigui.com/",
-    "customOrder": -95,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": false,
-    "lastUpdateTime": 1713520791956,
-    "respondTime": 80064,
-    "ruleBookInfo": {
-      "author": "h1@span@text",
-      "canReName": "1",
-      "coverUrl": "img@src",
-      "intro": "p.mohe-text@text##(^|[。！？\\s]+[”」）】]?)##$1<br>\n@js:result.replace(/.*展开阅读全文|∨\\)：/g,\"\")",
-      "kind": ".theme-term@span.2@a@text&&.theme-term@span.4@text##状态：",
-      "lastChapter": ".theme-term@span.3@a@text&&.theme-term@span.4@text",
-      "name": "img@alt"
-    },
-    "ruleContent": {
-      "content": "div.5@html",
-      "nextContentUrl": "li.next_b@el-tag@onclick##window\\.open\\('(\\d+)\\.\\S+','_self'\\)##$1.html",
-      "replaceRegex": "##插入书签"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "span@text",
-      "bookList": "p.line",
-      "bookUrl": "a.blue@href",
-      "checkKeyWord": "这个",
-      "name": "a.blue@text"
-    },
-    "ruleToc": {
-      "chapterList": ".contlist li@el-tag",
-      "chapterName": "text",
-      "chapterUrl": "onclick##.*[/](\\d+)[.].*##$1.html",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")",
-      "nextTocUrl": "select@option@value"
-    },
-    "searchUrl": "user/eSy_18i6.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}&searchtype=all&t_btnsearch=\",\n\t\"headers\": {\"Referer\": \"https://www.35meigui.com/\"}\n\t}",
-    "weight": 0
-  },
-  {
     "bookSourceName": "企鹅小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.qiexs.com/",
-    "customOrder": -94,
+    "customOrder": -95,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -330,7 +286,7 @@
     "bookSourceName": "爱看小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.zw30.net/",
-    "customOrder": -93,
+    "customOrder": -94,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -369,7 +325,7 @@
     "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.biquge345.com/",
-    "customOrder": -92,
+    "customOrder": -93,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -409,7 +365,7 @@
     "bookSourceName": "笑佳人",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.xiaojiaren.com/",
-    "customOrder": -91,
+    "customOrder": -92,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -452,20 +408,20 @@
     "bookSourceName": "霹雳书坊",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.pilibook.net/",
-    "customOrder": -90,
+    "customOrder": -91,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"男频网文\",\"url\":\"/1/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"女频言情\",\"url\":\"/2/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"电子图书\",\"url\":\"/3/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"无CP小说\",\"url\":\"/4/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"纯爱小说\",\"url\":\"/5/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"百合小说\",\"url\":\"/6/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"轻小说\",\"url\":\"/8/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1727433637573,
+    "lastUpdateTime": 1729745559400,
     "respondTime": 3622,
     "ruleBookInfo": {
       "author": "h2@ownText##（作者：(.*)）##$1###",
       "canReName": "1",
       "coverUrl": ".works-cover img@src",
       "intro": "p.works-intro-short@html",
-      "kind": "a.works-intro-tags-item@text",
-      "lastChapter": "span.works-chapter-item.0@text",
+      "kind": "a.works-intro-tags-item@text&&span.ui-pl10@text",
+      "lastChapter": "span.works-chapter-item.0@text&&span.ui-pl10@text",
       "name": ".works-intro-title strong@text",
       "tocUrl": "a.works-intro-view@href"
     },
@@ -482,11 +438,13 @@
       "name": "h3.ret-works-title@a@text"
     },
     "ruleSearch": {
-      "bookList": ".mod_book_list li",
-      "bookUrl": "a.f14@href",
+      "author": "span.book-status@text",
+      "bookList": ".x-book",
+      "bookUrl": "a.0@href",
       "checkKeyWord": "这个",
-      "coverUrl": "img.img100x133@src",
-      "name": "a.f14@text"
+      "coverUrl": "img.x-book__cover@src",
+      "intro": "p.x-book__intro@text",
+      "name": "p.x-book__info--name@text"
     },
     "ruleToc": {
       "chapterList": ".volume-list li a",
@@ -494,7 +452,7 @@
       "chapterUrl": "href",
       "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
-    "searchUrl": "search/0/{{key}}/{{page}}.html",
+    "searchUrl": "search/0/{{key}}/{{page}}.html,{\n\t\"headers\" : {'User-Agent': 'Mozilla/5.0 (Linux; Android 9; PDBM00 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36'}\n\t}",
     "weight": 0
   },
   {
@@ -502,7 +460,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.69hsw.com/",
     "bookUrlPattern": "\\S+www.69haoshu.com.\\d+.",
-    "customOrder": -89,
+    "customOrder": -90,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -542,7 +500,7 @@
     "bookSourceName": "淡水书院",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.udikids.com/",
-    "customOrder": -88,
+    "customOrder": -89,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
