@@ -393,16 +393,16 @@
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"排行\",\"url\":\"/allvisit-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"玄幻\",\"url\":\"/sort/1-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"武侠\",\"url\":\"/sort/2-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"言情\",\"url\":\"/sort/3-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"穿越\",\"url\":\"/sort/4-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市\",\"url\":\"/sort/5-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻\",\"url\":\"/sort/6-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"网游\",\"url\":\"/sort/7-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"恐怖\",\"url\":\"/sort/8-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"耽美\",\"url\":\"/sort/9-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1703936116486,
+    "lastUpdateTime": 1729760714149,
     "respondTime": 5322,
     "ruleBookInfo": {
-      "author": ".divbox > div > div.0@text##作者：|\\s*类别：.*",
+      "author": "[property=\"og:novel:author\"]@content",
       "canReName": "1",
       "coverUrl": ".divbox@img@src",
-      "intro": "div.gray@text##(^|[\\s]+)##<br>",
-      "kind": ".divbox > div > div.0@text##.*类别：(\\S*)\\s*状态：.*\\s/\\s更新时间：(\\S*)\\s/\\s举报错误##$1,$2",
-      "lastChapter": "{{@@.ccss.-1@a@text}} {{@@.divbox > div > div.0@text##.*更新时间：(\\S*)\\s/\\s举报错误##$1}}",
-      "name": "h2@text##_.?御.屋"
+      "intro": ".gray@text##(^|[\\s]+)##<br>",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content"
     },
     "ruleContent": {
       "content": ".ccontent@html"
@@ -434,56 +434,10 @@
   },
   {
     "bookSourceComment": "",
-    "bookSourceName": "海棠小说",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.285b.com/",
-    "customOrder": -91,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": false,
-    "lastUpdateTime": 1703936101076,
-    "respondTime": 3404,
-    "ruleBookInfo": {
-      "author": "span@a@text",
-      "canReName": "1",
-      "coverUrl": ".divbox@img@src",
-      "intro": ".tabvalue.0@div.0@text##(^|[\\s]+)##<br>",
-      "kind": ".tabcontent@td[width]@text##.*：",
-      "lastChapter": "h3@a@text&&.tabcontent@td[width='36%']@text##.*：",
-      "name": ".divbox > div > div > span.0@text##《|》",
-      "tocUrl": "text.点击阅读@href",
-      "wordCount": ".tabcontent@tr.2@td.0@text##\\D"
-    },
-    "ruleContent": {
-      "content": ".acontent@html"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": ".c_tag:nth-of-type(2)@span:nth-of-type(2)@text",
-      "bookList": ".c_row",
-      "bookUrl": ".c_subject@a@href",
-      "coverUrl": ".fl@img@src",
-      "intro": ".c_description@text",
-      "kind": ".c_tag:nth-of-type(2)@span:nth-of-type(4)@text&&span:nth-of-type(8)@text",
-      "name": ".c_subject@a@text",
-      "wordCount": "span:nth-of-type(6)@text##\\D"
-    },
-    "ruleToc": {
-      "chapterList": "dd@a",
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+(?![\\u4e00-\\u9fa5])[.]?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")",
-      "updateTime": "title"
-    },
-    "searchUrl": "modules/article/search.php,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchtype=all&searchkey={{key}}\"\n\t}",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "",
     "bookSourceName": "海棠书屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xs505.com/",
-    "customOrder": -90,
+    "customOrder": -91,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -524,7 +478,7 @@
     "bookSourceName": "御书屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.yushuwuu.vip/",
-    "customOrder": -89,
+    "customOrder": -90,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -566,7 +520,7 @@
     "bookSourceName": "肉肉屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.rourouwu.de/",
-    "customOrder": -88,
+    "customOrder": -89,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -604,54 +558,11 @@
     "weight": 0
   },
   {
-    "bookSourceName": "新AK小说",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://m.akxsx.com/",
-    "customOrder": -87,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": false,
-    "lastUpdateTime": 1706200847950,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "author": "[property=\"og:novel:author\"]@content",
-      "canReName": "1",
-      "coverUrl": "[property=\"og:image\"]@content",
-      "intro": "[property=\"og:description\"]@content",
-      "kind": "[property~=status|category|update_time]@content",
-      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property$=update_time]@content",
-      "name": "[property=\"og:novel:book_name\"]@content",
-      "tocUrl": "text.章节目录@href"
-    },
-    "ruleContent": {
-      "content": "#booktxt@p@html",
-      "nextContentUrl": "a#next_url@href"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "dd@a@text",
-      "bookList": "dl",
-      "bookUrl": "dt@a@href",
-      "coverUrl": "img.lazy@data-original",
-      "intro": "dd@text",
-      "name": "dt@a@text"
-    },
-    "ruleToc": {
-      "chapterList": "ul.mt0@li@a",
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+[章回]\\s*|^[〇零一二三四五六七八九十百千万两□]+(?![\\u4e00-\\u9fa5])[.]?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*/g,\"\")",
-      "nextTocUrl": "select@option@value"
-    },
-    "searchUrl": "search/?searchkey={{key}}",
-    "weight": 0
-  },
-  {
     "bookSourceComment": "搜索间隔30秒",
     "bookSourceName": "新御宅屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.yuzhaiwu.xyz/",
-    "customOrder": -86,
+    "customOrder": -88,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
@@ -705,7 +616,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.feiyanqing999.com/",
     "bookUrlPattern": "\\S+www.feiyanqing999.com.book.\\d+.",
-    "customOrder": -85,
+    "customOrder": -87,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
