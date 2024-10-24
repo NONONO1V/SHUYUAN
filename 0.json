@@ -497,47 +497,5 @@
     },
     "searchUrl": "search/?searchkey={{key}}",
     "weight": 0
-  },
-  {
-    "bookSourceComment": "搜索间隔30s",
-    "bookSourceName": "新笔趣阁",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.qidianxin.com/",
-    "customOrder": -89,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": false,
-    "lastUpdateTime": 1729764241127,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "author": "[property=\"og:novel:author\"]@content",
-      "coverUrl": "img@src",
-      "intro": "[property=\"og:description\"]@content##(^|[。！？\\s]+[”」）】]?)##$1<br>",
-      "kind": "[property~=category|status|update_time]@content",
-      "lastChapter": "a.text-danger@text&&[property=\"og:novel:update_time\"]@content",
-      "name": "[property=\"og:novel:book_name\"]@content"
-    },
-    "ruleContent": {
-      "content": "p:nth-of-type(3)@html",
-      "replaceRegex": "##搜书名找不到,可以试试搜作者哦,也许只是改名了!"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "<js>\nhref = java.getString(\".fs-16@a@href\");\nhref = \"https://www.qidianxin.com\" + href;\njava.ajax(href);\n</js>\na.red@text",
-      "bookList": ".col-xs-4@.row",
-      "bookUrl": ".fs-16 a@href",
-      "coverUrl": "a.thumbnail@src",
-      "intro": "p.fs-12@text",
-      "kind": "",
-      "name": ".fs-16 a@text"
-    },
-    "ruleToc": {
-      "chapterList": "#newlist a",
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
-    },
-    "searchUrl": "search/?searchkey={{key}}",
-    "weight": 0
   }
 ]
