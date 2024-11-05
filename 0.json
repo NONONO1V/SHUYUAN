@@ -497,5 +497,46 @@
     },
     "searchUrl": "search/?searchkey={{key}}",
     "weight": 0
+  },
+  {
+    "bookSourceComment": "搜索有间隔",
+    "bookSourceName": "256文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.256wx.net/",
+    "customOrder": -89,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1730849482784,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "#text@span.0@text",
+      "canReName": "1",
+      "intro": "p.1@html",
+      "kind": ".position@a.1@text&&time@text",
+      "lastChapter": ".list@a.-1@text&&time@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "@js:\nvar jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\".page\").remove()\njsoup.select(\".article\").html()"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h3 a@text##.*\\s作者：(.*)##$1",
+      "bookList": ".main_left header",
+      "bookUrl": "h3 a@href##$##/",
+      "checkKeyWord": "",
+      "intro": "section@text",
+      "kind": "time@text",
+      "name": "h3 a@text##(.*)\\s作者：.*##$1"
+    },
+    "ruleToc": {
+      "chapterList": ".list a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
+    },
+    "searchUrl": "e/search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"show=title%2Cwriter&tempid=1&tbname=article&keyboard={{key}}\"\n\t}",
+    "weight": 0
   }
 ]
