@@ -74,7 +74,7 @@
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"作者积分榜\",\"url\":\"https://app.jjwxc.org/bookstore/scorelistV1?offset={{(page-1)*25}}&limit=25\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"作者收藏\",\"url\":\"https://app.jjwxc.org/androidapi/favAuthorList?versionCode=403&token={{source.getVariable()}}&isAll=1&sortType=1\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
     "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; 2201123C Build/V417IR; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Safari/537.36/JINJIANG-Android/403(2201123C;Scale/1.75;isHarmonyOS/false)\"}",
-    "lastUpdateTime": 1731070518238,
+    "lastUpdateTime": 1731071289939,
     "respondTime": 2256,
     "ruleBookInfo": {
       "author": "span[itemprop='name']@text",
@@ -94,7 +94,7 @@
       "bookUrl": "$.authorId\n<js>\n\"http://www.jjwxc.net/oneauthor.php?authorid=\" + result;\n</js>",
       "coverUrl": "$.authorPhoto",
       "intro": "<js>\nrenew = java.getString(\"$.renew.novelName\");\r\nrenewdate = java.getString(\"$.renew.renewdate\");\r\nfavorite = java.getString(\"$.favorite.novelName\");\r\nfavoriteEnd = java.getString(\"$.favoriteEnd.novelName\");\r\n\r\n`最新更新：《${renew}》　${renewdate}\\n最热小说：《${favorite}》\\n完结佳作：《${favoriteEnd}》`;\n</js>",
-      "kind": "<js>\nauthorSign = java.getString(\"$.authorSign\");\r\nsignStatus = authorSign == 0 ? \"未签约作者\" : \"签约作者\";\r\n\r\nfavoriteNum = java.getString(\"$.favoriteNum\");\r\nmultiplescore = java.getString(\"$.multiplescore\");\r\n\r\nlet a1 = `被收藏数：${favoriteNum}`;\r\nlet a2 = multiplescore ? `, 总积分：${multiplescore}` : \"\";\r\n\r\n`${a1}${a2}, ${signStatus}`;\n</js>",
+      "kind": "<js>\nauthorSign = java.getString(\"$.authorSign\");\r\nsignStatus = authorSign == 0 ? \"未签约作者\" : \"签约作者\";\r\n\r\nfavoriteNum = java.getString(\"$.favoriteNum\");\r\nmultiplescore = java.getString(\"$.multiplescore\");\r\n\r\nlet a1 = `被收藏数：${favoriteNum}`;\r\nlet a2 = multiplescore != \"\" ? `, 总积分：${multiplescore}` : \"\";\r\n\r\n`${a1}${a2}, ${signStatus}`;\n</js>",
       "name": "$.authorName"
     },
     "ruleSearch": {
