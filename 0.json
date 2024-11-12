@@ -166,7 +166,8 @@
     "enabled": false,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1731151300742,
+    "lastUpdateTime": 1731160473355,
+    "loginUrl": "https://69shu.biz/index.html",
     "respondTime": 80527,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -250,7 +251,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1731374436675,
+    "lastUpdateTime": 1731374683240,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -262,7 +263,7 @@
     },
     "ruleContent": {
       "content": ".contents p@html@js:result+\"🍦下一页🍦\"",
-      "nextContentUrl": "##\\d+\\,\\d+\\,\\'(\\S+)\\|\\_\\_nextPage\\|\\/xiaoshuo\\/\\|html##$1.html###\n@js:\nif (!/^\\d+_\\d+\\.html$/.test(result)) {\n    result = \"\";\n}",
+      "nextContentUrl": "##\\d+\\,\\d+\\,\\'(\\S+)\\|\\_\\_nextPage\\|\\/xiaoshuo\\/\\|html##$1###\n@js:\nif (!/^\\d+_\\d+$/.test(result)) {\n\tresult = \"\";\n} else {\n\tresult += \".html\"\n}",
       "replaceRegex": "##\\s🍦下一页🍦\\s?"
     },
     "ruleExplore": {},
