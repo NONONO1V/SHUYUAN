@@ -250,7 +250,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1724607152687,
+    "lastUpdateTime": 1731374436675,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -262,7 +262,7 @@
     },
     "ruleContent": {
       "content": ".contents p@html@js:result+\"🍦下一页🍦\"",
-      "nextContentUrl": "##\\d+\\,\\d+\\,\\'(\\S+)\\|\\_\\_nextPage\\|\\/xiaoshuo\\/\\|html##$1.html###",
+      "nextContentUrl": "##\\d+\\,\\d+\\,\\'(\\S+)\\|\\_\\_nextPage\\|\\/xiaoshuo\\/\\|html##$1.html###\n@js:\nif (!/^\\d+_\\d+\\.html$/.test(result)) {\n    result = \"\";\n}",
       "replaceRegex": "##\\s🍦下一页🍦\\s?"
     },
     "ruleExplore": {},
@@ -466,7 +466,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1721815648218,
+    "lastUpdateTime": 1731373358378,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -478,7 +478,7 @@
     },
     "ruleContent": {
       "content": "#booktxt p@html@js:result+\"🍦下一页🍦\"",
-      "nextContentUrl": "text.下一页@href",
+      "nextContentUrl": "a.block:contains(下一页)@href",
       "replaceRegex": "##\\s🍦下一页🍦\\s?"
     },
     "ruleExplore": {},
