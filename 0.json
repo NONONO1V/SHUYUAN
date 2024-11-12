@@ -251,7 +251,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1731374683240,
+    "lastUpdateTime": 1731389910883,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -262,9 +262,9 @@
       "name": "[property=\"og:novel:book_name\"]@content"
     },
     "ruleContent": {
-      "content": ".contents p@html@js:result+\"🍦下一页🍦\"",
+      "content": ".contents p@html\n@js:\nresult = result.replace(/([\\u4e00-\\u9fa5]) (\\S)/g, \"$1，$2\");\nresult += \"🍦下一页🍦\";",
       "nextContentUrl": "##\\d+\\,\\d+\\,\\'(\\S+)\\|\\_\\_nextPage\\|\\/xiaoshuo\\/\\|html##$1###\n@js:\nif (!/^\\d+_\\d+$/.test(result)) {\n\tresult = \"\";\n} else {\n\tresult += \".html\"\n}",
-      "replaceRegex": "##\\s🍦下一页🍦\\s?"
+      "replaceRegex": "##\\s🍦下一页🍦\\s?|\\S?本书作者.*提醒您《.*》最新章节在\\S*|\\S*提醒：《.*》最新章节.*免费无弹窗阅读将第一时\\S*|\\S?喜欢看.*写的.*吗？那就记住\\S*"
     },
     "ruleExplore": {},
     "ruleSearch": {
