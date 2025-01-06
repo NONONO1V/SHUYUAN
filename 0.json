@@ -73,7 +73,7 @@
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"作者积分榜\",\"url\":\"https://app.jjwxc.org/bookstore/scorelistV1?offset={{(page-1)*25}}&limit=25\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"作者收藏\",\"url\":\"https://app.jjwxc.org/androidapi/favAuthorList?versionCode=413&token={{source.getVariable()}}&isAll=1&sortType=1\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
     "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; 2201123C Build/V417IR; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Safari/537.36/JINJIANG-Android/413(2201123C;Scale/1.75;isHarmonyOS/false)\"}",
-    "lastUpdateTime": 1735199172196,
+    "lastUpdateTime": 1736150737506,
     "respondTime": 2256,
     "ruleBookInfo": {
       "author": "span[itemprop='name']@text",
@@ -99,7 +99,7 @@
     "ruleSearch": {
       "bookList": "#search_result > div!0",
       "bookUrl": ".info@a@href",
-      "intro": "{{'作者专栏'}}",
+      "intro": "{{'🦄作者专栏🦄'}}",
       "name": ".info@a > span@text"
     },
     "ruleToc": {
@@ -371,12 +371,13 @@
     "bookSourceName": "霹雳书坊",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.pilibook.net/",
+    "bookUrlPattern": "\\S+pilibook.net/\\d/\\d+/info.html",
     "customOrder": -92,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"男频网文\",\"url\":\"/1/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"女频言情\",\"url\":\"/2/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"电子图书\",\"url\":\"/3/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"无CP小说\",\"url\":\"/4/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"纯爱小说\",\"url\":\"/5/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"百合小说\",\"url\":\"/6/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"轻小说\",\"url\":\"/8/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1729759251590,
+    "lastUpdateTime": 1736150776290,
     "respondTime": 3622,
     "ruleBookInfo": {
       "author": "a.works-author-name@text",
@@ -498,45 +499,6 @@
       "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "search/?searchkey={{key}}",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "搜索有间隔，目录不用使用格式化规则",
-    "bookSourceName": "256文学",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.256wx.net/",
-    "customOrder": -89,
-    "enabled": false,
-    "enabledCookieJar": false,
-    "enabledExplore": false,
-    "lastUpdateTime": 1735198777862,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "author": "#text@span.0@text",
-      "canReName": "1",
-      "intro": "p.1@html",
-      "kind": ".position@a.1@text&&time@text",
-      "lastChapter": ".list@a.-1@text&&time@text",
-      "name": "h1@text"
-    },
-    "ruleContent": {
-      "content": "@js:\nvar jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\".page\").remove()\njsoup.select(\".article\").html()"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "h3 a@text##.*\\s作者：(.*)##$1",
-      "bookList": ".main_left header",
-      "bookUrl": "h3 a@href##$##/",
-      "intro": "section@text",
-      "kind": "time@text",
-      "name": "h3 a@text##(.*)\\s作者：.*##$1"
-    },
-    "ruleToc": {
-      "chapterList": ".list a",
-      "chapterName": "text",
-      "chapterUrl": "href"
-    },
-    "searchUrl": "e/search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"show=title%2Cwriter&tempid=1&tbname=article&keyboard={{key}}\"\n\t}",
     "weight": 0
   }
 ]
