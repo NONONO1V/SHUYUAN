@@ -73,13 +73,13 @@
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"作者积分榜\",\"url\":\"https://app.jjwxc.org/bookstore/scorelistV1?offset={{(page-1)*25}}&limit=25\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"作者收藏\",\"url\":\"https://app.jjwxc.org/androidapi/favAuthorList?versionCode=413&token={{source.getVariable()}}&isAll=1&sortType=1\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
     "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; 2201123C Build/V417IR; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Safari/537.36/JINJIANG-Android/413(2201123C;Scale/1.75;isHarmonyOS/false)\"}",
-    "lastUpdateTime": 1736150737506,
+    "lastUpdateTime": 1736688108326,
     "respondTime": 2256,
     "ruleBookInfo": {
       "author": "span[itemprop='name']@text",
       "canReName": "1",
       "coverUrl": "{{@@img.authordefaultimage@src}},{\"headers\" : {'User-Agent': 'Dalvik/2.1.0'}}",
-      "intro": "@js:\nlet a1 = String(java.getString(\"td[height='38']@font[color='#FF0000']@a@text\")).replace(/《|》/g, \"\");\r\nlet a2 = java.getString(\"td[height='38']@font[color='#FF0000']@font[color='black'].0@text\");\r\nlet a3 = java.getString(\"td[height='38']@font[color='#FF0000']@font[color='black'].1@text\");\r\na3 = parseInt(a3) > 9999 ? (parseFloat(a3) / 10000).toFixed(2) + \"万字\" : a3 + \"字\";\r\nlet a4 = java.getString(\"td[height='38']@ownText\");\r\nlet a5 = java.getString(\"span[itemprop='description']@html\");\r\nlet a6 = String(java.getString(\"td[valign='top'].1@marquee@html\")).replace(/没啥说的了，都来我家喝酒吧\\^{2}b/, \"\");\r\n\r\n`\\t最近更新作品：${a1}\\n作品状态：${a2}\\n作品字数：${a3}\\n最后更新时间：${a4}\\n&lrm;\\n${a5}\\n${a6}`;",
+      "intro": "@js:\nlet a1 = String(java.getString(\"td[height='38']@font[color='#FF0000']@a@text\")).replace(/《|》/g, \"\");\r\nlet a2 = java.getString(\"td[height='38']@font[color='#FF0000']@font[color='black'].0@text\");\r\nlet a3 = java.getString(\"td[height='38']@font[color='#FF0000']@font[color='black'].1@text\");\r\na3 = parseInt(a3) > 9999 ? (parseFloat(a3) / 10000).toFixed(2) + \"万字\" : a3 + \"字\";\r\nlet a4 = java.getString(\"td[height='38']@ownText\");\r\nlet a5 = java.getString(\"div[itemprop='description']@html\");\r\nlet a6 = String(java.getString(\"td[valign='top'].1@marquee@html\")).replace(/没啥说的了，都来我家喝酒吧\\^{2}b/, \"\");\r\n\r\n`\\t最近更新作品：${a1}\\n作品状态：${a2}\\n作品字数：${a3}\\n最后更新时间：${a4}\\n&lrm;\\n${a5}\\n${a6}`;",
       "kind": "td[colspan='5']@td[width='120']@ownText",
       "name": "td[height='40']@span.volumnfont@b@text"
     },
