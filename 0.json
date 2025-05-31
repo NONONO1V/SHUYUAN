@@ -372,7 +372,7 @@
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"男频网文\",\"url\":\"1/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"女频言情\",\"url\":\"2/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"电子图书\",\"url\":\"3/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"无CP小说\",\"url\":\"4/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"纯爱小说\",\"url\":\"5/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"百合小说\",\"url\":\"6/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"轻小说\",\"url\":\"8/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
     "header": "@js:\nJSON.stringify({\n    \"User-Agent\": java.getWebViewUA()\n});",
-    "lastUpdateTime": 1748677052018,
+    "lastUpdateTime": 1748677375565,
     "respondTime": 3622,
     "ruleBookInfo": {
       "author": "p.x-detail__info--author@text",
@@ -380,7 +380,7 @@
       "coverUrl": ".x-book__multi img@src",
       "init": ".x-home",
       "intro": ".x-detail__intro--content@html",
-      "kind": "p.x-detail__info--words.2@text&&p.x-detail__info--reads@text&&span.x-catalog__update@text##分类：|进程：|更新于：",
+      "kind": "p.x-detail__info--words.0@text&&p.x-detail__info--reads@text&&span.x-catalog__update@text##分类：|进程：|更新于：",
       "lastChapter": ".x-catalog__new@ownText&&span.x-catalog__update@text##更新于：",
       "name": "span.x-page__title@text",
       "tocUrl": ".x-detail__operator--item a@href"
@@ -406,7 +406,7 @@
       "name": "p.x-book__info--name@text"
     },
     "ruleToc": {
-      "chapterList": "@css:\n.volumes, .chapter\n\n@js:\nvar list = [];\nvar $ = result;\n\nfor (var i = 0; i < $.length; i++) {\n    var item = $[i];\n    var html = String(item);\n    if (html.indexOf('class=\"volumes') > -1) {\n        var text = String(item.text())\n            .replace(new RegExp(String(book.name), 'g'), '')\n            .replace(new RegExp(\"（.*\", 'g'), '')\n            .replace(new RegExp(\"^正文$\", 'g'), '');\n        list.push({1\n            text: \"🏮〖\" + text + \"〗🏮\",\n            volume: true\n        });\n    } else {\n        var links = item.select(\"a\");\n        for (var j = 0; j < links.size(); j++) {\n            var a = links.get(j);\n            list.push({\n                text: a.text(),\n                href: a.attr(\"href\")\n            });\n        }\n    }\n}\n\nlist;",
+      "chapterList": "@css:\n.volumes, .chapter\n\n@js:\nvar list = [];\nvar $ = result;\n\nfor (var i = 0; i < $.length; i++) {\n    var item = $[i];\n    var html = String(item);\n    if (html.indexOf('class=\"volumes') > -1) {\n        var text = String(item.text())\n            .replace(new RegExp(String(book.name), 'g'), '')\n            .replace(new RegExp(\"（.*\", 'g'), '')\n            .replace(new RegExp(\"^正文$\", 'g'), '');\n        list.push({\n            text: \"🏮〖\" + text + \"〗🏮\",\n            volume: true\n        });\n    } else {\n        var links = item.select(\"a\");\n        for (var j = 0; j < links.size(); j++) {\n            var a = links.get(j);\n            list.push({\n                text: a.text(),\n                href: a.attr(\"href\")\n            });\n        }\n    }\n}\n\nlist;",
       "chapterName": "text",
       "chapterUrl": "href##read/(.*).html##/wmcms/ajax/index.php?action=novel.getchapter&cid=$1&format=1###",
       "isVolume": "volume"
