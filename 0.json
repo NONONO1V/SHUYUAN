@@ -12,8 +12,7 @@
     "enabledExplore": true,
     "exploreUrl": "@js:\n// 生成 URL 的通用函数\nfunction generateUrl(channelId, isNumericChannel) {\n  var baseUrl = \"https://app.jjwxc.org/bookstore/getFullPageV1\";\n  var limit = isNumericChannel ? 25 : 20;\n  var channelBody = `%7B%22${channelId}%22%3A%7B%22offset%22%3A%22{{(page-1)*${limit}}}%22%2C%22limit%22%3A%22${limit}%22%7D%7D`;\n  return `${baseUrl}?versionCode=423&channelBody=${channelBody}&channelMore=1`;\n}\n\n// 判断 channelId 是否为纯数字的函数\nfunction isNumeric(value) {\n  return /^\\d+$/.test(value);\n}\n\n// 定义类别和它们对应的 channelId\nvar categories = [\n  { title: \"言情\", channelId: \"\" },\r\n  { title: \"月度排行榜\", channelId: \"natural_592\" },\r\n  { title: \"季度排行榜\", channelId: \"natural_593\" },\r\n  { title: \"半年排行榜\", channelId: \"natural_594\" },\r\n  { title: \"新晋作者榜\", channelId: \"natural_591\" },\r\n  { title: \"长生殿排行榜\", channelId: \"natural_595\" },\r\n  { title: \"勤奋指数榜\", channelId: \"natural_1477\" },\r\n  { title: \"完结金榜\", channelId: \"natural_781\" },\r\n  { title: \"字数榜\", channelId: \"natural_729\" },\r\n  { title: \"霸王票总榜\", channelId: \"natural_725\" },\r\n  { title: \"读者栽培榜\", channelId: \"natural_653\" },\r\n  { title: \"驻站作者榜\", channelId: \"natural_590\" },\r\n  { title: \"总分榜\", channelId: \"natural_828\" },\r\n  { title: \"VIP金榜\", channelId: \"natural_822\" },\r\n  { title: \"古代言情\", channelId: \"10000012\" },\r\n  { title: \"现代言情\", channelId: \"10000013\" },\r\n  { title: \"幻想现言\", channelId: \"10000014\" },\r\n  { title: \"古代穿越\", channelId: \"10000015\" },\r\n  { title: \"奇幻言情\", channelId: \"10000016\" },\r\n  { title: \"未来游戏悬疑\", channelId: \"10000017\" },\r\n  { title: \"衍生言情\", channelId: \"10000019\" },\r\n  { title: \"二次元言情\", channelId: \"10000018\" },\r\n  { title: \"古言完结\", channelId: \"10000020\" },\r\n  { title: \"现言完结\", channelId: \"10000021\" },\r\n  { title: \"衍生言情完结\", channelId: \"10000022\" },\r\n  { title: \"完结半价包月\", channelId: \"10000023\" },\r\n  { title: \"期中千字榜\", channelId: \"90000001\" },\n  { title: \"纯爱\", channelId: \"\" },\n  { title: \"月度排行榜\", channelId: \"natural_604\" },\n  { title: \"季度排行榜\", channelId: \"natural_605\" },\n  { title: \"半年排行榜\", channelId: \"natural_606\" },\n  { title: \"新晋作者榜\", channelId: \"natural_603\" },\n  { title: \"长生殿排行榜\", channelId: \"natural_607\" },\n  { title: \"勤奋指数榜\", channelId: \"natural_1479\" },\n  { title: \"完结金榜\", channelId: \"natural_783\" },\n  { title: \"字数榜\", channelId: \"natural_731\" },\n  { title: \"霸王票总榜\", channelId: \"natural_727\" },\n  { title: \"读者栽培榜\", channelId: \"natural_655\" },\n  { title: \"驻站作者榜\", channelId: \"natural_602\" },\n  { title: \"总分榜\", channelId: \"natural_830\" },\n  { title: \"衍生\", channelId: \"\" },\n  { title: \"月度排行榜\", channelId: \"natural_610\" },\n  { title: \"季度排行榜\", channelId: \"natural_611\" },\n  { title: \"半年排行榜\", channelId: \"natural_612\" },\n  { title: \"新晋作者榜\", channelId: \"natural_609\" },\n  { title: \"长生殿排行榜\", channelId: \"natural_613\" },\n  { title: \"勤奋指数榜\", channelId: \"natural_1480\" },\n  { title: \"完结金榜\", channelId: \"natural_784\" },\n  { title: \"字数榜\", channelId: \"natural_732\" },\n  { title: \"霸王票总榜\", channelId: \"natural_728\" },\n  { title: \"读者栽培榜\", channelId: \"natural_656\" },\n  { title: \"驻站作者榜\", channelId: \"natural_608\" },\n  { title: \"总分榜\", channelId: \"natural_831\" },\n  { title: \"无CP+\", channelId: \"\" },\n  { title: \"月度排行榜\", channelId: \"natural_888\" },\n  { title: \"季度排行榜\", channelId: \"natural_887\" },\n  { title: \"半年排行榜\", channelId: \"natural_889\" },\n  { title: \"新晋作者榜\", channelId: \"natural_890\" },\n  { title: \"长生殿排行榜\", channelId: \"natural_891\" },\n  { title: \"勤奋指数榜\", channelId: \"natural_1481\" },\n  { title: \"完结金榜\", channelId: \"natural_896\" },\n  { title: \"字数榜\", channelId: \"natural_895\" },\n  { title: \"霸王票总榜\", channelId: \"natural_894\" },\n  { title: \"读者栽培榜\", channelId: \"natural_893\" },\n  { title: \"驻站作者榜\", channelId: \"natural_892\" },\n  { title: \"总分榜\", channelId: \"natural_903\" },\n  { title: \"百合\", channelId: \"\" },\n  { title: \"月度排行榜\", channelId: \"natural_1043\" },\n  { title: \"季度排行榜\", channelId: \"natural_1042\" },\n  { title: \"半年排行榜\", channelId: \"natural_1044\" },\n  { title: \"新晋作者榜\", channelId: \"natural_1045\" },\n  { title: \"长生殿排行榜\", channelId: \"natural_1046\" },\n  { title: \"勤奋指数榜\", channelId: \"natural_1490\" },\n  { title: \"完结金榜\", channelId: \"natural_1050\" },\n  { title: \"字数榜\", channelId: \"natural_1074\" },\n  { title: \"霸王票总榜\", channelId: \"natural_1049\" },\n  { title: \"读者栽培榜\", channelId: \"natural_1048\" },\n  { title: \"驻站作者榜\", channelId: \"natural_1047\" },\n  { title: \"总分榜\", channelId: \"natural_1052\" },\n  { title: \"原创\", channelId: \"\" },\n  { title: \"月度排行榜\", channelId: \"natural_598\" },\n  { title: \"季度排行榜\", channelId: \"natural_599\" },\n  { title: \"半年排行榜\", channelId: \"natural_600\" },\n  { title: \"新晋作者榜\", channelId: \"natural_597\" },\n  { title: \"长生殿排行榜\", channelId: \"natural_601\" },\n  { title: \"勤奋指数榜\", channelId: \"natural_1478\" },\n  { title: \"完结金榜\", channelId: \"natural_782\" },\n  { title: \"字数榜\", channelId: \"natural_730\" },\n  { title: \"霸王票总榜\", channelId: \"natural_726\" },\n  { title: \"读者栽培榜\", channelId: \"natural_654\" },\n  { title: \"驻站作者榜\", channelId: \"natural_596\" },\n  { title: \"总分榜\", channelId: \"natural_829\" }\r\n];\n\n// 为每个类别生成 URL 和样式\nvar result = categories.map(function(category) {\n  var url = category.channelId \n    ? generateUrl(category.channelId, isNumeric(category.channelId) || category.title == \"VIP金榜\") \n    : \"\";\n\n  return {\n    title: category.title,\n    url: url,\n    style: { layout_flexGrow: 1, layout_flexBasisPercent: category.channelId ? 0.2 : 1 }\n  };\n});\n\n// 获取 token 和时间戳\nvar token = source.getVariable();\nvar timestamp = Math.round(new Date() / 1000);\n\n// 定义 sign 生成的逻辑\nfunction generateSign(token, timestamp) {\n  var crypto = java.createSymmetricCrypto(\"DES/CBC/PKCS5Padding\", \"KW8Dvm2N\", \"1ae2c94b\");\n  var payload = `${timestamp}:${token}`;\n  return crypto.encryptBase64(payload);\n}\n\n// 拼接附加数据\nvar additionalData = [\n  { \n    title: \"我的收藏[尚未分类]\",\n    url: `https://app.jjwxc.org/androidapi/incrementFavorite?versionCode=423&token=${token}&classId=0&backupTime=${timestamp}&order=0`,\n    style: { layout_flexGrow: 1, layout_flexBasisPercent: 0.2 }\n  },\n  {\n  \t title: \"点击签到\",\n  \t url: `https://app.jjwxc.org/androidapi/signin,{\"method\": 'POST',\"body\": 'versionCode=423&sign=${generateSign(token, timestamp)}'}`,\n  \t style: { layout_flexGrow: 1, layout_flexBasisPercent: 0.2 }\n  \t},\n  {\n    title: \"今日限免\",\n    url: \"https://app-cdn.jjwxc.com/bookstore/getFullPageV1?channel=member_free_index&version=16\",\n    style: { layout_flexGrow: 1, layout_flexBasisPercent: 0.2 }\n  },\n  {\n    title: \"新文千字榜\",\n    url: \"https://app-cdn.jjwxc.com/bookstore/favObservationByDate?day=today&use_cdn=1&version=16\",\n    style: { layout_flexGrow: 1, layout_flexBasisPercent: 0.2 }\n  }\n];\n\n// 将附加数据放在开头\nvar finalResult = additionalData.concat(result);\n\n// 输出最终结果\nJSON.stringify(finalResult);",
     "header": "{\n  \"Referer\": \"http://android.jjwxc.net/?v=423\",\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; 2201123C Build/V417IR; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.61 Safari/537.36/JINJIANG-Android/423(2201123C;Scale/1.75;isHarmonyOS/false)\"\n  }",
-    "jsLib": "function bDe(d) {\n\td = String(d);\n\tif (d.indexOf(\"http\") == 0) {\n\t\tvar token = /(\\d+_[\\w\\d]{16,})/.test(d) ? \"token=\" + d.match(/\\d+_[\\w\\d]{16,}/)[0] : \"token=\";\n\t\tvar novelId = /novelId=\\d+/.test(d) ? d.match(/novelId=\\d+/)[0] : \"\";\n\t\tvar chapterId = /chapterId=\\d+/.test(d) ? \"&\" + d.match(/chapterId=\\d+/)[0] : \"\";\n\t\treturn token + \"&\" + novelId + chapterId;\n\t\t}\n\tvar base64Match = d.match(/base64,([^,]+),/);\n\treturn base64Match ? String(java.base64Decode(base64Match[1])) : \"\";\n\t}",
-    "lastUpdateTime": 1747900923318,
+    "lastUpdateTime": 1748673961127,
     "respondTime": 2461,
     "ruleBookInfo": {
       "author": "$.authorName",
@@ -27,7 +26,7 @@
       "wordCount": "$.novelSize##\\D"
     },
     "ruleContent": {
-      "content": "<js>\nfunction decode() {\n\tbaseUrl = \"https://app.jjwxc.org/androidapi/chapterContent?versionCode=381&\" + bDe(baseUrl);\n\tlet response = java.get(baseUrl, {});\n\tlet content = String(response.body());\n\t// 判断是否为付费章节\n\tif (!/\"content\"/.test(content)) {\n\t\tlet accesskey = String(response.header(\"accesskey\"));\n\t\tlet keyString = String(response.header(\"keystring\"));\n\t\tlet total = 0;\n\t\tfor (var i = 0; i < accesskey.length; i++) {\n\t\t\ttotal += accesskey.charCodeAt(i);\n\t\t\t}\n\t\tlet v6 = accesskey.charCodeAt(accesskey.length - 1);\n\t\tlet v15 = total % keyString.length;\n\t\tlet v17 = Math.floor(total / 65);\n\t\tlet end = v17 + v15 > keyString.length ? keyString.length : v17 + v15;\n\t\tlet v43 = keyString.substring(v15, end);\n\t\tlet v38, dest;\n\t\tif ((v6 & 1) != 0) {\n\t\t\tv38 = content.slice(-12);\n\t\t\tdest = content.slice(0, -12);\n\t\t\t} else {\n\t\t\tv38 = content.slice(0, 12);\n\t\t\tdest = content.slice(12);\n\t\t\t}\n\t\tlet key = java.md5Encode(v43 + v38).slice(0, 8);\n\t\tlet iv = java.md5Encode(v38).slice(0, 8);\n\t\tcontent = java.createSymmetricCrypto(\"DES/CBC/PKCS5Padding\", key, iv).decryptStr(dest);\n\t\t}\n\t\treturn content\n}\n\nkey = source.getVariable();\nextend = book.getVariable(\"custom\");\nnovelid = java.get(\"novelId\");\nchapterid = java.get(\"chapterId\");\n\nif (!/versionCode/.test(baseUrl)) {\n  content = java.getString(\"$.content\");\n  upDown = java.getString(\"$.upDown\");\n  saybody = java.getString(\"$.sayBody\");\n  message = java.getString(\"$.message\");\n} else {\n  if (/content/.test(result)) {\n    java.setContent(result);\n  } else {\n    java.setContent(decode());\n  }\n\n  content = java.getString(\"$..content\");\n  if (String(content).length > 30) {\n    content = java.createSymmetricCrypto(\"DES/CBC/PKCS5Padding\", \"KW8Dvm2N\", \"1ae2c94b\").decryptStr(content);\n  } else {\n    content = \"\";\n  }\n\n  upDown = java.getString(\"$..upDown\");\n  saybody = java.getString(\"$..sayBody\");\n  message = java.getString(\"$..message\");\n  buy_ratio = java.getString(\"$..buy_ratio\");\n  reader_buy_ratio = java.getString(\"$..reader_buy_ratio\");\n};\n\nchapterintro = java.get(\"chapterintro\");\npointMeassge = java.get(\"pointmeassge\");\n\ncontent1 = `\\t${chapterintro}\\n${message}`;\nif (pointMeassge != \"0晋江币\") {\n    content1 += \"\\n价格：\" + pointMeassge + \"（APP专享价）\";\n}\nif (/免费赠送的福利番外/.test(message)) {\n    content1 += \"\\n本福利番外赠送给正文订阅率达到\" + buy_ratio + \"的读者\\n您截止至上一章的正文订阅率：\" + reader_buy_ratio;\n}\nsaybody = saybody != \"\" && !/关闭作话/.test(extend) ? `\\t▍作者有话说：${saybody}` : \"\";\nContent = content == \"\" ? content1 : (upDown == \"0\" ? `${saybody}\\n&lrm;\\n${content}` : `${content}\\n${saybody}`);\n\n\r\nif (/评论/.test(extend)) {\r\n    const commentMatch = /评论(\\d+)/.exec(extend);\n    const limit = commentMatch ? commentMatch[1] : \"5\";\r\n    const commentUrl = baseUrl.replace(/app-cdn.jjwxc.com/,'android.jjwxc.net').replace(/androidapi/, 'comment').replace(/chapterContent/, 'getCommentList') + `&limit=${limit}&offset=0&commentSort=0`;\r\n    const Comment = JSON.parse(java.ajax(commentUrl));\n    const commentList = Comment.commentList || Comment.data?.commentList || [];\r\n    let Commentcontent = \"\";\r\n    if (commentList.length > 0) {\r\n        Commentcontent = commentList.map(C => {\n        \tlet { ip_pos, commentAuthor, commentBody, commentDate, subscriptionrate } = C;\n        \treturn `•——————•——————•\\n@${commentAuthor}　${commentDate}　来自${ip_pos}　💰${subscriptionrate}\\n${commentBody}\\n`;\n        \t}).join(\"\");\r\n    } else {\r\n        Commentcontent = Comment.message;\r\n    }\r\n\r\n    Commentcontent ? `${Content}\\n&lrm;\\n▍评论：\\n${Commentcontent}` : Content;\r\n}\n</js>",
+      "content": "<js>\nfunction decode() {\n\tlet response = java.get(baseUrl, {});\n\tlet content = String(response.body());\n\t// 判断是否为付费章节\n\tif (!/\"content\"/.test(content)) {\n\t\tlet accesskey = String(response.header(\"accesskey\"));\n\t\tlet keyString = String(response.header(\"keystring\"));\n\t\tlet total = 0;\n\t\tfor (var i = 0; i < accesskey.length; i++) {\n\t\t\ttotal += accesskey.charCodeAt(i);\n\t\t\t}\n\t\tlet v6 = accesskey.charCodeAt(accesskey.length - 1);\n\t\tlet v15 = total % keyString.length;\n\t\tlet v17 = Math.floor(total / 65);\n\t\tlet end = v17 + v15 > keyString.length ? keyString.length : v17 + v15;\n\t\tlet v43 = keyString.substring(v15, end);\n\t\tlet v38, dest;\n\t\tif ((v6 & 1) != 0) {\n\t\t\tv38 = content.slice(-12);\n\t\t\tdest = content.slice(0, -12);\n\t\t\t} else {\n\t\t\tv38 = content.slice(0, 12);\n\t\t\tdest = content.slice(12);\n\t\t\t}\n\t\tlet key = java.md5Encode(v43 + v38).slice(0, 8);\n\t\tlet iv = java.md5Encode(v38).slice(0, 8);\n\t\tcontent = java.createSymmetricCrypto(\"DES/CBC/PKCS5Padding\", key, iv).decryptStr(dest);\n\t\t}\n\t\treturn content\n}\n\nkey = source.getVariable();\nextend = book.getVariable(\"custom\");\nnovelid = java.get(\"novelId\");\nchapterid = java.get(\"chapterId\");\n\nif (!/versionCode/.test(baseUrl)) {\n  content = java.getString(\"$.content\");\n  upDown = java.getString(\"$.upDown\");\n  saybody = java.getString(\"$.sayBody\");\n  message = java.getString(\"$.message\");\n} else {\n  if (/content/.test(result)) {\n    java.setContent(result);\n  } else {\n    java.setContent(decode());\n  }\n\n  content = java.getString(\"$..content\");\n  if (String(content).length > 30) {\n    content = java.createSymmetricCrypto(\"DES/CBC/PKCS5Padding\", \"KW8Dvm2N\", \"1ae2c94b\").decryptStr(content);\n  } else {\n    content = \"\";\n  }\n\n  upDown = java.getString(\"$..upDown\");\n  saybody = java.getString(\"$..sayBody\");\n  message = java.getString(\"$..message\");\n  buy_ratio = java.getString(\"$..buy_ratio\");\n  reader_buy_ratio = java.getString(\"$..reader_buy_ratio\");\n};\n\nchapterintro = java.get(\"chapterintro\");\npointMeassge = java.get(\"pointmeassge\");\n\ncontent1 = `\\t${chapterintro}\\n${message}`;\nif (pointMeassge != \"0晋江币\") {\n    content1 += \"\\n价格：\" + pointMeassge + \"（APP专享价）\";\n}\nif (/免费赠送的福利番外/.test(message)) {\n    content1 += \"\\n本福利番外赠送给正文订阅率达到\" + buy_ratio + \"的读者\\n您截止至上一章的正文订阅率：\" + reader_buy_ratio;\n}\nsaybody = saybody != \"\" && !/关闭作话/.test(extend) ? `\\t▍作者有话说：${saybody}` : \"\";\nContent = content == \"\" ? content1 : (upDown == \"0\" ? `${saybody}\\n&lrm;\\n${content}` : `${content}\\n${saybody}`);\n\n\r\nif (/评论/.test(extend)) {\r\n    const commentMatch = /评论(\\d+)/.exec(extend);\n    const limit = commentMatch ? commentMatch[1] : \"5\";\r\n    const commentUrl = baseUrl.replace(/app-cdn.jjwxc.com/,'android.jjwxc.net').replace(/androidapi/, 'comment').replace(/chapterContent/, 'getCommentList') + `&limit=${limit}&offset=0&commentSort=0`;\r\n    const Comment = JSON.parse(java.ajax(commentUrl));\n    const commentList = Comment.commentList || Comment.data?.commentList || [];\r\n    let Commentcontent = \"\";\r\n    if (commentList.length > 0) {\r\n        Commentcontent = commentList.map(C => {\n        \tlet { ip_pos, commentAuthor, commentBody, commentDate, subscriptionrate } = C;\n        \treturn `•——————•——————•\\n@${commentAuthor}　${commentDate}　来自${ip_pos}　💰${subscriptionrate}\\n${commentBody}\\n`;\n        \t}).join(\"\");\r\n    } else {\r\n        Commentcontent = Comment.message;\r\n    }\r\n\r\n    Commentcontent ? `${Content}\\n&lrm;\\n▍评论：\\n${Commentcontent}` : Content;\r\n}\n</js>",
       "replaceRegex": "##　💰(?!\\d)\n@js:result.replace(/<br>/g,\"\\n\")"
     },
     "ruleExplore": {
@@ -53,7 +52,7 @@
     "ruleToc": {
       "chapterList": "$.chapterlist",
       "chapterName": "<js>\nname = java.getString(\"$.chaptername\");\nchaptertype = java.getString(\"$.chaptertype\");\npointMeassge = java.getString(\"$.pointMeassge\");\nchapterMessage = java.getString(\"$.chapterMessage\") == \"福利番外\" ? \"🧧[福利番外]\" : \"\"; \njava.put(\"pointmeassge\",pointMeassge);\nchapterid = java.getString(\"$.chapterid\");\nislock = java.getString(\"$.islock\") == \"0\" ? \"\" : \"🔒[锁]\";\nisvip = java.getString(\"$.isvip\") == \"0\" ? \"\" : \"💸\";\nif (chaptertype == \"0\") {\n\tchaptername = String(name).replace(/[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*|(?=^)\\d+(?=$)|福利番外/g,\"\");\n\tchaptername = `${isvip}第${chapterid}章 ${chaptername}${chaptername == \"\" ? chapterMessage : \" \" + chapterMessage}${chaptername == \"\" ? islock : \" \" + islock}`;\n\t} else {\n\tvolumename = `📜${name}`;\n\t}\n</js>",
-      "chapterUrl": "<js>\nkey = source.getVariable();\nnovelid = java.getString(\"$.novelid\");\njava.put(\"novelId\",novelid);\nchapterid = java.getString(\"$.chapterid\");\njava.put(\"chapterId\",chapterid);\nisvip = java.getString(\"$.isvip\");\nchaptertype = java.getString(\"$.chaptertype\");\nif(isvip == \"0\"){\n\turl = \"https://app-cdn.jjwxc.com/androidapi/chapterContent?novelId=\" + novelid + \"&chapterId=\" + chapterid;\n\t} else {\n\turl = \"https://app-cdn.jjwxc.com/androidapi/chapterContent?novelId=\" + novelid + \"&versionCode=423&token=\" + key + \"&chapterId=\" + chapterid;\n\t};\nchapterUrl = chaptertype == \"0\" ? url : \"\";\n</js>",
+      "chapterUrl": "<js>\nkey = source.getVariable();\nnovelid = java.getString(\"$.novelid\");\njava.put(\"novelId\",novelid);\nchapterid = java.getString(\"$.chapterid\");\njava.put(\"chapterId\",chapterid);\nisvip = java.getString(\"$.isvip\");\nchaptertype = java.getString(\"$.chaptertype\");\nif(isvip == \"0\"){\n\turl = \"https://app-cdn.jjwxc.com/androidapi/chapterContent?novelId=\" + novelid + \"&chapterId=\" + chapterid;\n\t} else {\n\turl = \"https://app-cdn.jjwxc.com/androidapi/chapterContent?novelId=\" + novelid + \"&versionCode=381&token=\" + key + \"&chapterId=\" + chapterid;\n\t};\nchapterUrl = chaptertype == \"0\" ? url : \"\";\n</js>",
       "isVolume": "$.chaptertype",
       "updateTime": "$.chapterintro##^\\s*|(?![A-Za-z0-9]+)\\s*(?![A-Za-z0-9]+)\n<js>\njava.put(\"chapterintro\",result);\nchapterintro = result;\nchapterdate = java.getString(\"$.chapterdate\");\nchaptersize = java.getString(\"$.chaptersize\");\nchaptertype = java.getString(\"$.chaptertype\");\nChapterInfo = chaptertype == \"0\" ? chapterdate + '　' + chaptersize + '字' + '　' + chapterintro : \"\";\n</js>"
     },
@@ -363,58 +362,6 @@
     "weight": 0
   },
   {
-    "bookSourceName": "霹雳书坊",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.pilibook.net/",
-    "bookUrlPattern": "\\S+pilibook.net/\\d/\\d+/info.html",
-    "customOrder": -92,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": true,
-    "exploreUrl": "[{\"title\":\"男频网文\",\"url\":\"/1/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"女频言情\",\"url\":\"/2/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"电子图书\",\"url\":\"/3/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"无CP小说\",\"url\":\"/4/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"纯爱小说\",\"url\":\"/5/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"百合小说\",\"url\":\"/6/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"轻小说\",\"url\":\"/8/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1746766378225,
-    "respondTime": 3622,
-    "ruleBookInfo": {
-      "author": "a.works-author-name@text",
-      "canReName": "1",
-      "coverUrl": ".works-cover img@src",
-      "intro": "p.works-intro-short@html",
-      "kind": "a.works-intro-tags-item@text&&label.works-intro-status@text&&span.ui-pl10@text",
-      "lastChapter": "a.works-ft-new@text&&span.ui-pl10@text",
-      "name": ".works-intro-title strong@text",
-      "tocUrl": ".words-xone-menu a@href"
-    },
-    "ruleContent": {
-      "content": ".read-content p@html"
-    },
-    "ruleExplore": {
-      "author": "p.ret-works-author@text",
-      "bookList": "li.ret-search-item",
-      "bookUrl": "h3.ret-works-title@a@href",
-      "coverUrl": "a.mod-cover-list-thumb@img@src",
-      "intro": "p.ret-works-decs@text",
-      "lastChapter": "span.mod-cover-list-text@text",
-      "name": "h3.ret-works-title@a@text"
-    },
-    "ruleSearch": {
-      "author": "span.book-status@text",
-      "bookList": ".x-book",
-      "bookUrl": "a.0@href",
-      "checkKeyWord": "这个",
-      "coverUrl": "img.x-book__cover@src",
-      "intro": "p.x-book__intro@text",
-      "name": "p.x-book__info--name@text"
-    },
-    "ruleToc": {
-      "chapterList": "p@a",
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
-    },
-    "searchUrl": "search/0/{{key}}/{{page}}.html,{\"headers\" : {'User-Agent': 'Mozilla/5.0 (Linux; Android 9; PDBM00 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36'}}",
-    "weight": 0
-  },
-  {
     "bookSourceName": "69书吧",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.69hao.com/",
@@ -494,6 +441,59 @@
       "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "search/?searchkey={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceName": "霹雳书坊",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.pilibook.net/",
+    "bookUrlPattern": "\\S+pilibook.net/\\d/\\d+/info.html",
+    "customOrder": 8,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"男频网文\",\"url\":\"1/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"女频言情\",\"url\":\"2/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"电子图书\",\"url\":\"3/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"无CP小说\",\"url\":\"4/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"纯爱小说\",\"url\":\"5/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"百合小说\",\"url\":\"6/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"轻小说\",\"url\":\"8/list/0_0_0_0_0_0_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2}}]",
+    "header": "@js:\nJSON.stringify({\n    \"User-Agent\": java.getWebViewUA()\n});",
+    "lastUpdateTime": 1748673882925,
+    "respondTime": 3622,
+    "ruleBookInfo": {
+      "author": "a.works-author-name@text",
+      "canReName": "1",
+      "coverUrl": ".works-cover img@src",
+      "intro": "p.works-intro-short@html",
+      "kind": "a.works-intro-tags-item@text&&label.works-intro-status@text&&span.ui-pl10@text",
+      "lastChapter": "a.works-ft-new@text&&span.ui-pl10@text",
+      "name": ".works-intro-title strong@text",
+      "tocUrl": ".words-xone-menu a@href"
+    },
+    "ruleContent": {
+      "content": ".read-content p@html"
+    },
+    "ruleExplore": {
+      "author": "p.ret-works-author@text",
+      "bookList": "<js>\nif (/Just a moment/.test(result)) {\n    cookie.removeCookie(baseUrl);\n    java.startBrowserAwait(baseUrl, \"请完成验证后继续\");\n    result = java.ajax(baseUrl);\n}\nresult;\n</js>\nli.ret-search-item",
+      "bookUrl": "h3.ret-works-title@a@href",
+      "coverUrl": "a.mod-cover-list-thumb@img@src",
+      "intro": "p.ret-works-decs@text",
+      "lastChapter": "span.mod-cover-list-text@text",
+      "name": "h3.ret-works-title@a@text"
+    },
+    "ruleSearch": {
+      "author": "span.book-status@text",
+      "bookList": "<js>\nif (result.includes('Just a moment')) {\n    cookie.removeCookie(source.bookSourceUrl);\n    const url = java.get(\"url\");\n    result = java.startBrowserAwait(url, \"验证\", false).body();\n}\nresult;\n</js>\n.x-book",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "这个",
+      "coverUrl": "img.x-book__cover@src",
+      "intro": "p.x-book__intro@text",
+      "name": "p.x-book__info--name@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:\n.volumes, .chapter\n\n@js:\nvar list = [];\nvar $ = result;\n\nfor (var i = 0; i < $.length; i++) {\n    var item = $[i];\n    var html = String(item);\n    if (html.indexOf('class=\"volumes') > -1) {\n        var text = String(item.text())\n            .replace(new RegExp(String(book.name), 'g'), '')\n            .replace(new RegExp(\"（.*\", 'g'), '')\n            .replace(new RegExp(\"^正文$\"), '');\n        list.push({1\n            text: \"🏮〖\" + text + \"〗🏮\",\n            volume: true\n        });\n    } else {\n        var links = item.select(\"a\");\n        for (var j = 0; j < links.size(); j++) {\n            var a = links.get(j);\n            list.push({\n                text: a.text(),\n                href: a.attr(\"href\")\n            });\n        }\n    }\n}\n\nlist;",
+      "chapterName": "text",
+      "chapterUrl": "href##read/(.*).html##/wmcms/ajax/index.php?action=novel.getchapter&cid=$1&format=1###",
+      "isVolume": "volume"
+    },
+    "searchUrl": "@js:\njava.put(\"url\", `${source.bookSourceUrl}search/0/${key}/{{page}}.html`)",
     "weight": 0
   }
 ]
