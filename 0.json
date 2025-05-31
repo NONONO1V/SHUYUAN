@@ -379,7 +379,7 @@
       "canReName": "1",
       "coverUrl": ".x-book__multi img@src",
       "init": ".x-home",
-      "intro": "\\t{{@@.x-detail__intro--tags a@text##^|\\s##🏷️}}\n{{@@.x-detail__intro--content@html}}",
+      "intro": "{{@@.x-detail__intro--tags a@text##^|\\s##🏷️}}\n{{@@.x-detail__intro--content@html}}",
       "kind": "p.x-detail__info--words.0@text&&p.x-detail__info--reads@text&&span.x-catalog__update@text##分类：|进程：|更新于：",
       "lastChapter": ".x-catalog__new@ownText&&span.x-catalog__update@text##更新于：",
       "name": "span.x-page__title@text",
