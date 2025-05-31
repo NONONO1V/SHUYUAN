@@ -448,7 +448,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.pilibook.net/",
     "bookUrlPattern": "\\S+pilibook.net/\\d/\\d+/info.html",
-    "customOrder": 8,
+    "customOrder": -89,
     "enabled": true,
     "enabledCookieJar": true,
     "enabledExplore": true,
