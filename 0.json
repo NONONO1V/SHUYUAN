@@ -462,19 +462,19 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1753934187366,
+    "lastUpdateTime": 1753953337466,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "h1@text##.*_|【.*",
       "canReName": "1",
       "intro": "p.1@html",
-      "kind": ".content > .breadcrumbs@a.1@text&&time@text",
+      "kind": ".content > .breadcrumbs@a.1@text&&time@text##小说推荐",
       "lastChapter": ".mulu.-1@a@text&&time@text##小说|推荐",
       "name": "h1@text##_.*"
     },
     "ruleContent": {
-      "content": "@js:\nvar jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\".pagination2, \u0002script, button#go-top\").remove()\njsoup.select(\"article\").html()",
-      "replaceRegex": "##\\s*小贴士：如果觉得52书库不错[\\s\\S]*"
+      "content": "@js:\nvar jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\".pagination2, \u0002span, script, button#go-top\").remove()\njsoup.select(\"article\").html()",
+      "replaceRegex": "##\\s*.*如果觉得52书库不错[\\s\\S]*"
     },
     "ruleExplore": {},
     "ruleSearch": {
