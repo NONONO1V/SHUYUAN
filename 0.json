@@ -473,7 +473,7 @@
       "name": "h1@text##_.*"
     },
     "ruleContent": {
-      "content": "@js:\nvar jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\".pagination2, \u0002span, script, button#go-top\").remove()\njsoup.select(\"article\").html()",
+      "content": "@js:\nvar jsoup = org.jsoup.Jsoup.parse(result)\njsoup.select(\".pagination2, span, script, button#go-top\").remove()\njsoup.select(\"article\").html()",
       "replaceRegex": "##\\s*.*如果觉得52书库不错[\\s\\S]*"
     },
     "ruleExplore": {},
