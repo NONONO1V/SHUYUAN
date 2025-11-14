@@ -527,13 +527,53 @@
     "weight": 0
   },
   {
+    "bookSourceName": "52书库②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "\u0002https://www.52shukuw.com/",
+    "customButton": false,
+    "customOrder": 11,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "eventListener": false,
+    "lastUpdateTime": 1762617810344,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": ".infotype .bookinfo a@text",
+      "canReName": "1",
+      "intro": "[name=\"description\"]@content",
+      "kind": ".position@a.1@text&&span.bookinfo.2@text&&time@text##状态：|更新时间：",
+      "lastChapter": ".catalog@a.-1@text&&time@text##更新时间：",
+      "name": "h1.art_tit@text##\\+番外"
+    },
+    "ruleContent": {
+      "content": ".book_con p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h2@a@text##.*作者：",
+      "bookList": "ul.list@li",
+      "bookUrl": "h2@a@href",
+      "intro": "p@text",
+      "name": "h2@a@text##\\+番外|\\s作者：.*"
+    },
+    "ruleToc": {
+      "chapterList": "ul.catalog@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "e/search/,{\"method\": \"POST\",\"body\": \"show=title%2Cwriter&tempid=1&tbname=article&keyboard={{key}}\"}",
+    "variableComment": "500",
+    "weight": 0
+  },
+  {
     "bookSourceName": "拾光小说汇",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.sigpool.com",
     "bookUrlPattern": "\\S+www.sigpool.com\\/info\\/\\d+\\/",
     "concurrentRate": "500",
     "customButton": false,
-    "customOrder": 11,
+    "customOrder": 12,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -568,43 +608,50 @@
     "weight": 0
   },
   {
-    "bookSourceName": "52书库②",
+    "bookSourceName": "一米小说",
     "bookSourceType": 0,
-    "bookSourceUrl": "\u0002https://www.52shukuw.com/",
+    "bookSourceUrl": "http://www.yimixs.org/",
+    "bookUrlPattern": "http\\://www\\.yimixs\\.org/xs/\\S+\\.html",
     "customButton": false,
-    "customOrder": 12,
+    "customOrder": 13,
     "enabled": true,
     "enabledCookieJar": true,
     "enabledExplore": true,
     "eventListener": false,
-    "lastUpdateTime": 1762617810344,
+    "lastUpdateTime": 1763095526948,
     "respondTime": 180000,
     "ruleBookInfo": {
-      "author": ".infotype .bookinfo a@text",
+      "author": "span.author a@text",
       "canReName": "1",
-      "intro": "[name=\"description\"]@content",
-      "kind": ".position@a.1@text&&span.bookinfo.2@text&&time@text##状态：|更新时间：",
-      "lastChapter": ".catalog@a.-1@text&&time@text##更新时间：",
-      "name": "h1.art_tit@text##\\+番外"
+      "coverUrl": ".imgbox img@src",
+      "init": "div.col_a",
+      "intro": "p.desc@html",
+      "kind": "ul.info@li.0@a@text&&span.state@text&&ul.info@li.2@ownText",
+      "lastChapter": ".abook_contents_list@li.0@text&&ul.info@li.2@ownText",
+      "name": "h2.tit@text##《|》",
+      "tocUrl": "a.all_view@href"
     },
     "ruleContent": {
-      "content": ".book_con p@html"
+      "content": ".article-body@html",
+      "nextContentUrl": "a.article-page-next:contains(下一页)@href",
+      "replaceRegex": "##\\s\\S+提醒您《.*》.*更新\\S+记住\\S+米小说\\S+最新章节\\S+\\s"
     },
     "ruleExplore": {},
     "ruleSearch": {
-      "author": "h2@a@text##.*作者：",
-      "bookList": "ul.list@li",
-      "bookUrl": "h2@a@href",
-      "intro": "p@text",
-      "name": "h2@a@text##\\+番外|\\s作者：.*"
+      "author": "dd:nth-of-type(1) span@text",
+      "bookList": ".lazyload_box li",
+      "bookUrl": "dt a@href",
+      "coverUrl": ".imgbox img@src",
+      "intro": "dd.desc@text",
+      "name": "dt a@text"
     },
     "ruleToc": {
-      "chapterList": "ul.catalog@li@a",
-      "chapterName": "text",
-      "chapterUrl": "href"
+      "chapterList": ".catalog_list li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
-    "searchUrl": "e/search/,{\"method\": \"POST\",\"body\": \"show=title%2Cwriter&tempid=1&tbname=article&keyboard={{key}}\"}",
-    "variableComment": "500",
+    "searchUrl": "search,{\"method\": \"POST\",\"body\": \"_token=ALPXdaz6cKpyuM9AM6DM0mOxusQtExgYI52C0rPz&search_type=&keyword={{key}}\"}",
     "weight": 0
   }
 ]
