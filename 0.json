@@ -621,8 +621,8 @@
     "enabledExplore": true,
     "eventListener": false,
     "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/shuku\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"武侠仙侠\",\"url\":\"/xianxia\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市言情\",\"url\":\"/dushi\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"历史军事\",\"url\":\"/lishi\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻传奇\",\"url\":\"/kehuan\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"恐怖灵异\",\"url\":\"/kongbu\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"其他类型\",\"url\":\"/qita\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
-    "lastUpdateTime": 1764045518938,
-    "loginUi": "http://www.yimixs.org/",
+    "lastUpdateTime": 1764147838071,
+    "loginUrl": "http://www.yimixs.org/",
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "span.author a@text",
@@ -670,15 +670,15 @@
     "bookSourceName": "完本神站",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xwbbook.com/",
-    "bookUrlPattern": "\\S+www.xwbsz.com/\\d+/",
+    "bookUrlPattern": "\\S+www.xwbbook.com/\\d+/",
     "concurrentRate": "500",
     "customButton": false,
     "customOrder": 14,
     "enabled": true,
-    "enabledCookieJar": false,
+    "enabledCookieJar": true,
     "enabledExplore": false,
     "eventListener": false,
-    "lastUpdateTime": 1764043936887,
+    "lastUpdateTime": 1764147915590,
     "loginUrl": "https://www.sososhu.com/?q=游戏&site=xwbsz",
     "respondTime": 180000,
     "ruleBookInfo": {
@@ -697,7 +697,7 @@
     "ruleSearch": {
       "author": "dt span@text",
       "bookList": "dl",
-      "bookUrl": "dt a@href",
+      "bookUrl": "dt a@href##www.xwbsz.com##www.xwbbook.com",
       "checkKeyWord": "游戏",
       "intro": "dd@text",
       "name": "dt a@text"
