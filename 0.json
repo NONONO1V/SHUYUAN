@@ -143,7 +143,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "eventListener": true,
-    "lastUpdateTime": 1764806216764,
+    "lastUpdateTime": 1764806507298,
     "loginUrl": "https://book.qq.com/book-shelf",
     "respondTime": 894,
     "ruleBookInfo": {
@@ -155,7 +155,7 @@
       "name": "[property=\"og:novel:book_name\"]@content"
     },
     "ruleContent": {
-      "callBackJs": "if (event == \"clickAuthor\") {\n  var jsoup = org.jsoup.Jsoup.parse(java.ajax(book.bookUrl));\n  link = jsoup.select(\"a.author.ypc-link\").attr(\"href\");\n  java.open(\"explore\", link, book.author + \"的作品\");\n  true\n}",
+      "callBackJs": "if (event == \"clickAuthor\") {\r\n\tvar jsoup = org.jsoup.Jsoup.parse(java.ajax(book.bookUrl));\r\n\tlink = jsoup.select(\"a.author.ypc-link\").attr(\"href\");\r\n\tjava.open(\"explore\", link, book.author + \"的作品\");\r\n\ttrue\r\n}",
       "content": "#article.chapter-content.isTxt@html"
     },
     "ruleExplore": {
