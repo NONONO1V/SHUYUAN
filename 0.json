@@ -469,56 +469,12 @@
     "weight": 0
   },
   {
-    "bookSourceName": "淡水书院",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.jxsc1.cn/",
-    "concurrentRate": "500",
-    "customButton": false,
-    "customOrder": 9,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": false,
-    "eventListener": false,
-    "lastUpdateTime": 1762617793843,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "author": "[property=\"og:novel:author\"]@content",
-      "coverUrl": "[property=\"og:image\"]@content",
-      "intro": "[property=\"og:description\"]@content##(^|[。！？\\s]+[”」）】]?)##$1<br>",
-      "kind": "[property~=category|status|update_time]@content",
-      "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
-      "name": "[property=\"og:novel:book_name\"]@content"
-    },
-    "ruleContent": {
-      "content": "#booktxt p@html@js:result+\"🍦下一页🍦\"",
-      "nextContentUrl": "a.block:contains(下一页)@href",
-      "replaceRegex": "##\\s🍦下一页🍦\\s?"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": ".btm a@text",
-      "bookList": "dl",
-      "bookUrl": "dt a@href",
-      "coverUrl": "img.lazy@data-original",
-      "intro": "dd@text",
-      "name": "dt a@text"
-    },
-    "ruleToc": {
-      "chapterList": "#list@dl@a",
-      "chapterName": "text##点击展开更多章节",
-      "chapterUrl": "href",
-      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
-    },
-    "searchUrl": "search/?searchkey={{key}}",
-    "weight": 0
-  },
-  {
     "bookSourceName": "52书库①",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.52shuku.net/",
     "concurrentRate": "500",
     "customButton": false,
-    "customOrder": 10,
+    "customOrder": 9,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
@@ -558,7 +514,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "\u0002https://www.52shukuw.com/",
     "customButton": false,
-    "customOrder": 11,
+    "customOrder": 10,
     "enabled": true,
     "enabledCookieJar": true,
     "enabledExplore": true,
@@ -594,47 +550,6 @@
     "weight": 0
   },
   {
-    "bookSourceName": "拾光小说汇",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.sigpool.com",
-    "bookUrlPattern": "\\S+www.sigpool.com\\/info\\/\\d+\\/",
-    "concurrentRate": "500",
-    "customButton": false,
-    "customOrder": 12,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": false,
-    "eventListener": false,
-    "lastUpdateTime": 1762617805210,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "author": "[property=\"og:novel:author\"]@content",
-      "coverUrl": "[property=\"og:image\"]@content",
-      "intro": "[property=\"og:description\"]@content",
-      "kind": "[property~=category|status|update_time]@content",
-      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
-      "name": "[property=\"og:novel:book_name\"]@content"
-    },
-    "ruleContent": {
-      "content": ".word_read@p@html",
-      "nextContentUrl": ".read_btn:last-child@a:contains(下一章)@href"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "span.s5@text",
-      "bookList": ".txt-list li",
-      "bookUrl": "span.s2@a@href",
-      "name": "span.s2@a@text"
-    },
-    "ruleToc": {
-      "chapterList": "@js:\r\n// 1. 初始化解析\r\nvar doc = typeof result === 'string' ? org.jsoup.Jsoup.parse(result) : result;\r\nvar allChapters = [];\r\nvar isFirstPage = true;\r\nvar lastChapterNum = 0;\r\n\r\n// 2. 获取第一页最后一章的章节号\r\nvar lastChapterLinkText = doc.select(\".fix p:last-child a\").text();\r\nvar lastChapterMatch = lastChapterLinkText.match(/第(\\d+)章/);\r\nvar maxChapterNum = lastChapterMatch ? parseInt(lastChapterMatch[1]) : 0;\r\n\r\n// 3. 处理第一页\r\ndoc.select(\"ul:nth-of-type(2) li\").forEach(function(li) {\r\n    var a = li.select(\"a\");\r\n    if (a) {\r\n        var chapterText = a.text();\r\n        var chapterNumMatch = chapterText.match(/第(\\d+)章/);\r\n        var chapterNum = chapterNumMatch ? parseInt(chapterNumMatch[1]) : 0;\r\n        \r\n        allChapters.push({\r\n            title: chapterText,\r\n            url: a.attr(\"href\"),\r\n            num: chapterNum\r\n        });\r\n        lastChapterNum = Math.max(lastChapterNum, chapterNum);\r\n    }\r\n});\r\n\r\n// 4. 当最后一章≥101时才处理第二页\r\nif (maxChapterNum >= 101) {\r\n    isFirstPage = false;\r\n    var secondPageBtn = doc.select(\"a.btn-mulu\");\r\n    \r\n    if (secondPageBtn) {\r\n        var secondPage = org.jsoup.Jsoup.parse(java.ajax(source.key + String(secondPageBtn.attr(\"href\"))));\r\n        \r\n        // 处理第二页主内容\r\n        processChapters(secondPage);\r\n        \r\n        // 处理分页内容（跳过前两项）\r\n        var options = secondPage.select(\"select option\");\r\n        for (var i = 2; i < options.size(); i++) {\r\n            var option = options.get(i);\r\n            var pageUrl = source.key + String(option.attr(\"value\"));\r\n            var subPage = org.jsoup.Jsoup.parse(java.ajax(pageUrl));\r\n            processChapters(subPage);\r\n        }\r\n    }\r\n}\r\n\r\n// 5. 章节处理函数（用于第二页及分页）\r\nfunction processChapters(pageDoc) {\r\n    pageDoc.select(\"ul.section-list li\").forEach(function(li) {\r\n        var a = li.select(\"a\");\r\n        if (a) {\r\n            var chapterText = a.text();\r\n            var chapterNumMatch = chapterText.match(/第(\\d+)章/);\r\n            var chapterNum = chapterNumMatch ? parseInt(chapterNumMatch[1]) : 0;\r\n            \r\n            if (chapterNum === lastChapterNum + 1) {\r\n                allChapters.push({\r\n                    title: chapterText,\r\n                    url: a.attr(\"href\"),\r\n                    num: chapterNum\r\n                });\r\n                lastChapterNum = chapterNum;\r\n            }\r\n        }\r\n    });\r\n}\r\n\r\n// 6. 最终排序和输出\r\nallChapters.sort(function(a, b) {\r\n    return a.num - b.num;\r\n});\r\n\r\nallChapters;",
-      "chapterName": "title",
-      "chapterUrl": "url"
-    },
-    "searchUrl": "/search.html,{\"method\": \"POST\",\"body\": \"s={{key}}\"}",
-    "weight": 0
-  },
-  {
     "bookSourceComment": "搜索里的_token可能需要更新",
     "bookSourceName": "一米小说",
     "bookSourceType": 0,
@@ -642,7 +557,7 @@
     "bookUrlPattern": "http\\://www\\.yimixs\\.org/xs/\\S+\\.html",
     "concurrentRate": "500",
     "customButton": false,
-    "customOrder": 13,
+    "customOrder": 11,
     "enabled": true,
     "enabledCookieJar": true,
     "enabledExplore": true,
@@ -700,12 +615,12 @@
     "bookUrlPattern": "\\S+www.xwbbook.com/\\d+/",
     "concurrentRate": "500",
     "customButton": false,
-    "customOrder": 14,
+    "customOrder": 12,
     "enabled": true,
     "enabledCookieJar": true,
     "enabledExplore": false,
     "eventListener": false,
-    "lastUpdateTime": 1764147915590,
+    "lastUpdateTime": 1765774181740,
     "loginUrl": "https://www.sososhu.com/?q=游戏&site=xwbsz",
     "respondTime": 180000,
     "ruleBookInfo": {
@@ -732,7 +647,8 @@
     "ruleToc": {
       "chapterList": "dd",
       "chapterName": "a@text",
-      "chapterUrl": "a@href"
+      "chapterUrl": "a@href",
+      "formatJs": "\"第\"+index+\"章 \"+String(title).replace(/^\\d+\\.?\\s*|[【]?第\\s?\\d+\\s?章[】]?\\s*|[第]?[〇零一二三四五六七八九十百千万两□]+章\\s*/g,\"\")"
     },
     "searchUrl": "https://www.sososhu.com/?q={{key}}&site=xwbsz",
     "weight": 0
