@@ -70,7 +70,6 @@
       "updateTime": "$.chapterintro##^\\s*|(?![A-Za-z0-9]+)\\s*(?![A-Za-z0-9]+)\n<js>\njava.put(\"chapterintro\",result);\nchapterintro = result;\nchapterdate = java.getString(\"$.chapterdate\");\nchaptersize = java.getString(\"$.chaptersize\");\nchaptertype = java.getString(\"$.chaptertype\");\nChapterInfo = chaptertype == \"0\" ? chapterdate + '　' + chaptersize + '字' + '　' + chapterintro : \"\";\n</js>"
     },
     "searchUrl": "https://android.jjwxc.com/androidapi/search?versionCode=471&keyword={{key}}&type={{Map(\"search\").split(\",\")[0]||1}}&page={{page}}&token=&searchType={{Map(\"search\").split(\",\")[1]||8}}&sortMode=DESC",
-    "variableComment": "在设置【书籍变量】中\n输入“关闭作话”：可以不显示正文中的作者有话说（默认开启作者有话说）\n\n",
     "weight": 0
   },
   {
